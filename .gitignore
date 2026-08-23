@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+
+# Generated manga data
+data/pages/
+data/pdf/
+logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
