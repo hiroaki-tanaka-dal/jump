@@ -1,0 +1,200 @@
+{
+  "magazine_id": "9253191255209039994",
+  "title": "週刊少年ジャンプ 2026年37・38合併号",
+  "url": "https://shonenjumpplus.com/magazine/9253191255209039994",
+  "year": 2026,
+  "issue": "37_38",
+  "published_at": "2026-08-10",
+  "entry_count": 27,
+  "entries": [
+    {
+      "order": 1,
+      "title": "あかね噺(巻頭カラー)",
+      "start_internal_page": 5,
+      "end_internal_page": 28,
+      "page_count": 24
+    },
+    {
+      "order": 2,
+      "title": "あかね噺(モノクロ冒頭ページ)",
+      "start_internal_page": 29,
+      "end_internal_page": 48,
+      "page_count": 20
+    },
+    {
+      "order": 3,
+      "title": "魔男のイチ",
+      "start_internal_page": 49,
+      "end_internal_page": 68,
+      "page_count": 20
+    },
+    {
+      "order": 4,
+      "title": "ONE PIECE",
+      "start_internal_page": 69,
+      "end_internal_page": 86,
+      "page_count": 18
+    },
+    {
+      "order": 5,
+      "title": "ウィッチウォッチ",
+      "start_internal_page": 87,
+      "end_internal_page": 103,
+      "page_count": 17
+    },
+    {
+      "order": 6,
+      "title": "全4弾の特別企画！お宝大噴夏！激アツッ！トレジャーボックス応募者全員サービス!!!第3弾",
+      "start_internal_page": 104,
+      "end_internal_page": 104,
+      "page_count": 1
+    },
+    {
+      "order": 7,
+      "title": "SAKAMOTO DAYS",
+      "start_internal_page": 105,
+      "end_internal_page": 124,
+      "page_count": 20
+    },
+    {
+      "order": 8,
+      "title": "笑わないでよ しじまさん",
+      "start_internal_page": 125,
+      "end_internal_page": 186,
+      "page_count": 62
+    },
+    {
+      "order": 9,
+      "title": "しのびごと",
+      "start_internal_page": 187,
+      "end_internal_page": 206,
+      "page_count": 20
+    },
+    {
+      "order": 10,
+      "title": "50周蟷ｴ企画!!ジャ繝ｳプ若手編髮？部員がふ繧返る！こち亀の歴史",
+      "start_internal_page": 207,
+      "end_internal_page": 222,
+      "page_count": 16
+    },
+    {
+      "order": 11,
+      "title": "付録 「50周蟷ｴ企画!!ジャ繝ｳプ若手編髮？部員がふ繧返る！こち亀の歴史」ポストカード用イラスト",
+      "start_internal_page": 223,
+      "end_internal_page": 224,
+      "page_count": 2
+    },
+    {
+      "order": 12,
+      "title": "さむわんへるつ",
+      "start_internal_page": 225,
+      "end_internal_page": 246,
+      "page_count": 22
+    },
+    {
+      "order": 13,
+      "title": "ロクのおかしな家",
+      "start_internal_page": 247,
+      "end_internal_page": 266,
+      "page_count": 20
+    },
+    {
+      "order": 14,
+      "title": "鵺の陰陽師",
+      "start_internal_page": 267,
+      "end_internal_page": 286,
+      "page_count": 20
+    },
+    {
+      "order": 15,
+      "title": "アニマルシグナル",
+      "start_internal_page": 287,
+      "end_internal_page": 306,
+      "page_count": 20
+    },
+    {
+      "order": 16,
+      "title": "僕とロボコ",
+      "start_internal_page": 307,
+      "end_internal_page": 322,
+      "page_count": 16
+    },
+    {
+      "order": 17,
+      "title": "カノンマスター",
+      "start_internal_page": 323,
+      "end_internal_page": 344,
+      "page_count": 22
+    },
+    {
+      "order": 18,
+      "title": "HAL FORMULA",
+      "start_internal_page": 345,
+      "end_internal_page": 364,
+      "page_count": 20
+    },
+    {
+      "order": 19,
+      "title": "カグラバチ",
+      "start_internal_page": 365,
+      "end_internal_page": 386,
+      "page_count": 22
+    },
+    {
+      "order": 20,
+      "title": "悪祓士のキヨシくん",
+      "start_internal_page": 387,
+      "end_internal_page": 408,
+      "page_count": 22
+    },
+    {
+      "order": 21,
+      "title": "2年B組 勇者デストロイヤーず",
+      "start_internal_page": 409,
+      "end_internal_page": 428,
+      "page_count": 20
+    },
+    {
+      "order": 22,
+      "title": "HUNTER×HUNTER",
+      "start_internal_page": 429,
+      "end_internal_page": 450,
+      "page_count": 22
+    },
+    {
+      "order": 23,
+      "title": "UNDER DOCTOR",
+      "start_internal_page": 451,
+      "end_internal_page": 472,
+      "page_count": 22
+    },
+    {
+      "order": 24,
+      "title": "夏と蛍籠",
+      "start_internal_page": 473,
+      "end_internal_page": 492,
+      "page_count": 20
+    },
+    {
+      "order": 25,
+      "title": "回撃のキナト",
+      "start_internal_page": 493,
+      "end_internal_page": 512,
+      "page_count": 20
+    },
+    {
+      "order": 26,
+      "title": "ルリドラゴン",
+      "start_internal_page": 513,
+      "end_internal_page": 533,
+      "page_count": 21
+    },
+    {
+      "order": 27,
+      "title": "本誌版次号予告／本誌版目次・作者コメント",
+      "start_internal_page": 534,
+      "end_internal_page": null,
+      "page_count": null
+    }
+  ]
+}

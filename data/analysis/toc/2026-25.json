@@ -1,0 +1,158 @@
+{
+  "magazine_id": "17107419589753427861",
+  "title": "週刊少年ジャンプ 2026年25号",
+  "url": "https://shonenjumpplus.com/magazine/17107419589753427861",
+  "year": 2026,
+  "issue": "25",
+  "published_at": "2026-05-18",
+  "entry_count": 21,
+  "entries": [
+    {
+      "order": 1,
+      "title": "鵺の陰陽師(巻頭カラー)",
+      "start_internal_page": 5,
+      "end_internal_page": 28,
+      "page_count": 24
+    },
+    {
+      "order": 2,
+      "title": "鵺の陰陽師(モノクロ冒頭ページ)",
+      "start_internal_page": 29,
+      "end_internal_page": 48,
+      "page_count": 20
+    },
+    {
+      "order": 3,
+      "title": "さむわんへるつ",
+      "start_internal_page": 49,
+      "end_internal_page": 68,
+      "page_count": 20
+    },
+    {
+      "order": 4,
+      "title": "SAKAMOTO DAYS",
+      "start_internal_page": 69,
+      "end_internal_page": 92,
+      "page_count": 24
+    },
+    {
+      "order": 5,
+      "title": "魔男のイチ",
+      "start_internal_page": 93,
+      "end_internal_page": 114,
+      "page_count": 22
+    },
+    {
+      "order": 6,
+      "title": "ウィッチウォッチ",
+      "start_internal_page": 115,
+      "end_internal_page": 136,
+      "page_count": 22
+    },
+    {
+      "order": 7,
+      "title": "夏と蛍籠",
+      "start_internal_page": 137,
+      "end_internal_page": 158,
+      "page_count": 22
+    },
+    {
+      "order": 8,
+      "title": "ブラッドマリッジ",
+      "start_internal_page": 159,
+      "end_internal_page": 206,
+      "page_count": 48
+    },
+    {
+      "order": 9,
+      "title": "2年B組 勇者デストロイヤーず",
+      "start_internal_page": 207,
+      "end_internal_page": 226,
+      "page_count": 20
+    },
+    {
+      "order": 10,
+      "title": "しのびごと",
+      "start_internal_page": 227,
+      "end_internal_page": 246,
+      "page_count": 20
+    },
+    {
+      "order": 11,
+      "title": "ロクのおかしな家",
+      "start_internal_page": 247,
+      "end_internal_page": 266,
+      "page_count": 20
+    },
+    {
+      "order": 12,
+      "title": "あかね噺",
+      "start_internal_page": 267,
+      "end_internal_page": 304,
+      "page_count": 38
+    },
+    {
+      "order": 13,
+      "title": "僕とロボコ",
+      "start_internal_page": 305,
+      "end_internal_page": 322,
+      "page_count": 18
+    },
+    {
+      "order": 14,
+      "title": "アオのハコ",
+      "start_internal_page": 323,
+      "end_internal_page": 346,
+      "page_count": 24
+    },
+    {
+      "order": 15,
+      "title": "きさらぎ高等学校心霊写真部!!",
+      "start_internal_page": 347,
+      "end_internal_page": 362,
+      "page_count": 16
+    },
+    {
+      "order": 16,
+      "title": "悪祓士のキヨシくん",
+      "start_internal_page": 363,
+      "end_internal_page": 382,
+      "page_count": 20
+    },
+    {
+      "order": 17,
+      "title": "UNDER DOCTOR",
+      "start_internal_page": 383,
+      "end_internal_page": 402,
+      "page_count": 20
+    },
+    {
+      "order": 18,
+      "title": "ひまてん！",
+      "start_internal_page": 403,
+      "end_internal_page": 422,
+      "page_count": 20
+    },
+    {
+      "order": 19,
+      "title": "回撃のキナト",
+      "start_internal_page": 423,
+      "end_internal_page": 442,
+      "page_count": 20
+    },
+    {
+      "order": 20,
+      "title": "エイリアンヘッドバット",
+      "start_internal_page": 443,
+      "end_internal_page": 463,
+      "page_count": 21
+    },
+    {
+      "order": 21,
+      "title": "本誌版次号予告／本誌版目次・作者コメント",
+      "start_internal_page": 464,
+      "end_internal_page": null,
+      "page_count": null
+    }
+  ]
+}

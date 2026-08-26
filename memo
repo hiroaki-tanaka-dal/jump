@@ -1,0 +1,41 @@
+## フォルダ構築
+mkdir -p src/jump_pdf/{browser,downloader,pdf,models}
+mkdir -p tests scripts config data/{pages,pdf} logs
+
+touch src/jump_pdf/__init__.py
+touch src/jump_pdf/browser/__init__.py
+touch src/jump_pdf/downloader/__init__.py
+touch src/jump_pdf/pdf/__init__.py
+touch src/jump_pdf/models/__init__.py
+
+touch src/jump_pdf/cli.py
+touch src/jump_pdf/browser/viewer.py
+touch src/jump_pdf/downloader/pages.py
+touch src/jump_pdf/pdf/builder.py
+touch src/jump_pdf/models/manga.py
+
+touch tests/.gitkeep
+touch scripts/.gitkeep
+touch data/.gitkeep
+touch logs/.gitkeep
+touch config/config.example.toml
+
+find . -maxdepth 4 -type f | sort
+
+## 仮想環境作成
+python3.12 --version
+python3.12 -m venv .venv
+source .venv/bin/activate
+
+python --version
+
+## パッケージのインストール
+python -m pip install --upgrade pip
+pip install playwright pillow
+playwright install chromium
+
+pyproject.tomlの作成
+pip install -e .
+
+## login作業
+python scripts/login.py

@@ -1,0 +1,165 @@
+{
+  "magazine_id": "17107094914659413677",
+  "title": "週刊少年ジャンプ 2026年17号",
+  "url": "https://shonenjumpplus.com/magazine/17107094914659413677",
+  "year": 2026,
+  "issue": "17",
+  "published_at": "2026-03-23",
+  "entry_count": 22,
+  "entries": [
+    {
+      "order": 1,
+      "title": "アオのハコ(巻頭カラー)",
+      "start_internal_page": 5,
+      "end_internal_page": 26,
+      "page_count": 22
+    },
+    {
+      "order": 2,
+      "title": "アオのハコ(モノクロ冒頭ページ)",
+      "start_internal_page": 27,
+      "end_internal_page": 48,
+      "page_count": 22
+    },
+    {
+      "order": 3,
+      "title": "魔男のイチ",
+      "start_internal_page": 49,
+      "end_internal_page": 68,
+      "page_count": 20
+    },
+    {
+      "order": 4,
+      "title": "ONE PIECE",
+      "start_internal_page": 69,
+      "end_internal_page": 86,
+      "page_count": 18
+    },
+    {
+      "order": 5,
+      "title": "さむわんへるつ",
+      "start_internal_page": 87,
+      "end_internal_page": 106,
+      "page_count": 20
+    },
+    {
+      "order": 6,
+      "title": "僕とロボコ",
+      "start_internal_page": 107,
+      "end_internal_page": 122,
+      "page_count": 16
+    },
+    {
+      "order": 7,
+      "title": "悪祓士のキヨシくん",
+      "start_internal_page": 123,
+      "end_internal_page": 144,
+      "page_count": 22
+    },
+    {
+      "order": 8,
+      "title": "回撃のキナト",
+      "start_internal_page": 145,
+      "end_internal_page": 166,
+      "page_count": 22
+    },
+    {
+      "order": 9,
+      "title": "SAKAMOTO DAYS",
+      "start_internal_page": 167,
+      "end_internal_page": 188,
+      "page_count": 22
+    },
+    {
+      "order": 10,
+      "title": "メダリオン",
+      "start_internal_page": 189,
+      "end_internal_page": 236,
+      "page_count": 48
+    },
+    {
+      "order": 11,
+      "title": "エイリアンヘッドバット",
+      "start_internal_page": 237,
+      "end_internal_page": 258,
+      "page_count": 22
+    },
+    {
+      "order": 12,
+      "title": "しのびごと",
+      "start_internal_page": 259,
+      "end_internal_page": 278,
+      "page_count": 20
+    },
+    {
+      "order": 13,
+      "title": "UNDER DOCTOR",
+      "start_internal_page": 279,
+      "end_internal_page": 298,
+      "page_count": 20
+    },
+    {
+      "order": 14,
+      "title": "ウィッチウォッチ",
+      "start_internal_page": 299,
+      "end_internal_page": 326,
+      "page_count": 28
+    },
+    {
+      "order": 15,
+      "title": "鵺の陰陽師",
+      "start_internal_page": 327,
+      "end_internal_page": 348,
+      "page_count": 22
+    },
+    {
+      "order": 16,
+      "title": "あかね噺",
+      "start_internal_page": 349,
+      "end_internal_page": 370,
+      "page_count": 22
+    },
+    {
+      "order": 17,
+      "title": "ひまてん！",
+      "start_internal_page": 371,
+      "end_internal_page": 392,
+      "page_count": 22
+    },
+    {
+      "order": 18,
+      "title": "JK勇者と隠居魔王",
+      "start_internal_page": 393,
+      "end_internal_page": 412,
+      "page_count": 20
+    },
+    {
+      "order": 19,
+      "title": "隣の小副川",
+      "start_internal_page": 413,
+      "end_internal_page": 432,
+      "page_count": 20
+    },
+    {
+      "order": 20,
+      "title": "ゴンロン・エッグ",
+      "start_internal_page": 433,
+      "end_internal_page": 447,
+      "page_count": 15
+    },
+    {
+      "order": 21,
+      "title": "4コマバンクシー",
+      "start_internal_page": 448,
+      "end_internal_page": 453,
+      "page_count": 6
+    },
+    {
+      "order": 22,
+      "title": "本誌版次号予告／本誌版目次・作者コメント",
+      "start_internal_page": 454,
+      "end_internal_page": null,
+      "page_count": null
+    }
+  ]
+}

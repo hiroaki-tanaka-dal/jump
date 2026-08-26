@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jump-pdf"
+version = "0.1.0"
+description = "Local manga PDF archiver"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.45",
+    "pillow>=10",
+]
+
+[project.scripts]
+jump-pdf = "jump_pdf.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,2 @@
+[console_scripts]
+jump-pdf = jump_pdf.cli:main

@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: jump-pdf
+Version: 0.1.0
+Summary: Local manga PDF archiver
+Requires-Python: >=3.11
+Requires-Dist: playwright>=1.45
+Requires-Dist: pillow>=10

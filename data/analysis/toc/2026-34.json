@@ -1,0 +1,172 @@
+{
+  "magazine_id": "9253191254836851911",
+  "title": "週刊少年ジャンプ 2026年34号",
+  "url": "https://shonenjumpplus.com/magazine/9253191254836851911",
+  "year": 2026,
+  "issue": "34",
+  "published_at": "2026-07-20",
+  "entry_count": 23,
+  "entries": [
+    {
+      "order": 1,
+      "title": "僕とロボコ(巻頭カラー)",
+      "start_internal_page": 5,
+      "end_internal_page": 22,
+      "page_count": 18
+    },
+    {
+      "order": 2,
+      "title": "僕とロボコ(モノクロ冒頭ページ)",
+      "start_internal_page": 23,
+      "end_internal_page": 38,
+      "page_count": 16
+    },
+    {
+      "order": 3,
+      "title": "あかね噺",
+      "start_internal_page": 39,
+      "end_internal_page": 58,
+      "page_count": 20
+    },
+    {
+      "order": 4,
+      "title": "SAKAMOTO DAYS",
+      "start_internal_page": 59,
+      "end_internal_page": 78,
+      "page_count": 20
+    },
+    {
+      "order": 5,
+      "title": "魔男のイチ",
+      "start_internal_page": 79,
+      "end_internal_page": 98,
+      "page_count": 20
+    },
+    {
+      "order": 6,
+      "title": "鵺の陰陽師",
+      "start_internal_page": 99,
+      "end_internal_page": 118,
+      "page_count": 20
+    },
+    {
+      "order": 7,
+      "title": "さむわんへるつ",
+      "start_internal_page": 119,
+      "end_internal_page": 140,
+      "page_count": 22
+    },
+    {
+      "order": 8,
+      "title": "UNDER DOCTOR",
+      "start_internal_page": 141,
+      "end_internal_page": 160,
+      "page_count": 20
+    },
+    {
+      "order": 9,
+      "title": "カノンマスター",
+      "start_internal_page": 161,
+      "end_internal_page": 180,
+      "page_count": 20
+    },
+    {
+      "order": 10,
+      "title": "しのびごと",
+      "start_internal_page": 181,
+      "end_internal_page": 216,
+      "page_count": 36
+    },
+    {
+      "order": 11,
+      "title": "鳶のおんがえし",
+      "start_internal_page": 217,
+      "end_internal_page": 264,
+      "page_count": 48
+    },
+    {
+      "order": 12,
+      "title": "ウィッチウォッチ",
+      "start_internal_page": 265,
+      "end_internal_page": 282,
+      "page_count": 18
+    },
+    {
+      "order": 13,
+      "title": "HAL FORMULA",
+      "start_internal_page": 283,
+      "end_internal_page": 302,
+      "page_count": 20
+    },
+    {
+      "order": 14,
+      "title": "悪祓士のキヨシくん",
+      "start_internal_page": 303,
+      "end_internal_page": 322,
+      "page_count": 20
+    },
+    {
+      "order": 15,
+      "title": "アニマルシグナル",
+      "start_internal_page": 323,
+      "end_internal_page": 346,
+      "page_count": 24
+    },
+    {
+      "order": 16,
+      "title": "ロクのおかしな家",
+      "start_internal_page": 347,
+      "end_internal_page": 368,
+      "page_count": 22
+    },
+    {
+      "order": 17,
+      "title": "HUNTER×HUNTER",
+      "start_internal_page": 369,
+      "end_internal_page": 390,
+      "page_count": 22
+    },
+    {
+      "order": 18,
+      "title": "貴族学園",
+      "start_internal_page": 391,
+      "end_internal_page": 409,
+      "page_count": 19
+    },
+    {
+      "order": 19,
+      "title": "『アオのハコ』連載完結記念 最終話まるごとデジタル原稿プリントmini 応募者全員サービス",
+      "start_internal_page": 410,
+      "end_internal_page": 410,
+      "page_count": 1
+    },
+    {
+      "order": 20,
+      "title": "2年B組 勇者デストロイヤーず",
+      "start_internal_page": 411,
+      "end_internal_page": 432,
+      "page_count": 22
+    },
+    {
+      "order": 21,
+      "title": "夏と蛍籠",
+      "start_internal_page": 433,
+      "end_internal_page": 452,
+      "page_count": 20
+    },
+    {
+      "order": 22,
+      "title": "回撃のキナト",
+      "start_internal_page": 453,
+      "end_internal_page": 473,
+      "page_count": 21
+    },
+    {
+      "order": 23,
+      "title": "本誌版次号予告／本誌版目次・作者コメント",
+      "start_internal_page": 474,
+      "end_internal_page": null,
+      "page_count": null
+    }
+  ]
+}

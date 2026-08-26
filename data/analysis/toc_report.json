@@ -1,0 +1,5969 @@
+{
+  "magazine_count": 20,
+  "unique_title_count": 98,
+  "titles": {
+    "あかね噺(巻頭カラー)": {
+      "appearances": 2,
+      "min_pages": 22,
+      "max_pages": 24,
+      "average_pages": 23,
+      "median_pages": 23.0,
+      "page_counts": [
+        24,
+        22
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-18"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 28,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 2,
+          "start_internal_page": 5,
+          "end_internal_page": 26,
+          "page_count": 22
+        }
+      ]
+    },
+    "あかね噺(モノクロ冒頭ページ)": {
+      "appearances": 2,
+      "min_pages": 20,
+      "max_pages": 22,
+      "average_pages": 21,
+      "median_pages": 21.0,
+      "page_counts": [
+        20,
+        22
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-18"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 2,
+          "start_internal_page": 29,
+          "end_internal_page": 48,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 3,
+          "start_internal_page": 27,
+          "end_internal_page": 48,
+          "page_count": 22
+        }
+      ]
+    },
+    "魔男のイチ": {
+      "appearances": 19,
+      "min_pages": 20,
+      "max_pages": 24,
+      "average_pages": 20.74,
+      "median_pages": 20,
+      "page_counts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        20,
+        20,
+        22,
+        20,
+        22,
+        22,
+        20,
+        20,
+        22,
+        20,
+        24,
+        20,
+        20
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 3,
+          "start_internal_page": 49,
+          "end_internal_page": 68,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 5,
+          "start_internal_page": 89,
+          "end_internal_page": 108,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 7,
+          "start_internal_page": 125,
+          "end_internal_page": 144,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 5,
+          "start_internal_page": 79,
+          "end_internal_page": 98,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 8,
+          "start_internal_page": 145,
+          "end_internal_page": 164,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 3,
+          "start_internal_page": 47,
+          "end_internal_page": 68,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 3,
+          "start_internal_page": 79,
+          "end_internal_page": 98,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 6,
+          "start_internal_page": 145,
+          "end_internal_page": 164,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 5,
+          "start_internal_page": 119,
+          "end_internal_page": 140,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 3,
+          "start_internal_page": 47,
+          "end_internal_page": 66,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 4,
+          "start_internal_page": 45,
+          "end_internal_page": 66,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 5,
+          "start_internal_page": 93,
+          "end_internal_page": 114,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 3,
+          "start_internal_page": 47,
+          "end_internal_page": 66,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 5,
+          "start_internal_page": 59,
+          "end_internal_page": 78,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 5,
+          "start_internal_page": 111,
+          "end_internal_page": 132,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 4,
+          "start_internal_page": 77,
+          "end_internal_page": 96,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 8,
+          "start_internal_page": 183,
+          "end_internal_page": 206,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 4,
+          "start_internal_page": 49,
+          "end_internal_page": 68,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 3,
+          "start_internal_page": 49,
+          "end_internal_page": 68,
+          "page_count": 20
+        }
+      ]
+    },
+    "ONE PIECE": {
+      "appearances": 12,
+      "min_pages": 18,
+      "max_pages": 20,
+      "average_pages": 18.33,
+      "median_pages": 18.0,
+      "page_counts": [
+        18,
+        20,
+        18,
+        18,
+        18,
+        18,
+        18,
+        18,
+        20,
+        18,
+        18,
+        18
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-35",
+        "2026-32",
+        "2026-31",
+        "2026-29",
+        "2026-27",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 4,
+          "start_internal_page": 69,
+          "end_internal_page": 86,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 4,
+          "start_internal_page": 63,
+          "end_internal_page": 82,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 4,
+          "start_internal_page": 69,
+          "end_internal_page": 86,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 4,
+          "start_internal_page": 69,
+          "end_internal_page": 86,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 4,
+          "start_internal_page": 101,
+          "end_internal_page": 118,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 4,
+          "start_internal_page": 67,
+          "end_internal_page": 84,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 4,
+          "start_internal_page": 67,
+          "end_internal_page": 84,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 6,
+          "start_internal_page": 79,
+          "end_internal_page": 96,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 4,
+          "start_internal_page": 91,
+          "end_internal_page": 110,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 5,
+          "start_internal_page": 129,
+          "end_internal_page": 146,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 5,
+          "start_internal_page": 69,
+          "end_internal_page": 86,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 4,
+          "start_internal_page": 69,
+          "end_internal_page": 86,
+          "page_count": 18
+        }
+      ]
+    },
+    "ウィッチウォッチ": {
+      "appearances": 18,
+      "min_pages": 17,
+      "max_pages": 36,
+      "average_pages": 21.17,
+      "median_pages": 20.0,
+      "page_counts": [
+        17,
+        18,
+        22,
+        18,
+        20,
+        18,
+        20,
+        36,
+        22,
+        20,
+        22,
+        22,
+        18,
+        20,
+        20,
+        20,
+        20,
+        28
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 5,
+          "start_internal_page": 87,
+          "end_internal_page": 103,
+          "page_count": 17
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 16,
+          "start_internal_page": 313,
+          "end_internal_page": 330,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 16,
+          "start_internal_page": 309,
+          "end_internal_page": 330,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 12,
+          "start_internal_page": 265,
+          "end_internal_page": 282,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 12,
+          "start_internal_page": 225,
+          "end_internal_page": 244,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 17,
+          "start_internal_page": 369,
+          "end_internal_page": 386,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 13,
+          "start_internal_page": 293,
+          "end_internal_page": 312,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 16,
+          "start_internal_page": 327,
+          "end_internal_page": 362,
+          "page_count": 36
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 16,
+          "start_internal_page": 337,
+          "end_internal_page": 358,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 7,
+          "start_internal_page": 129,
+          "end_internal_page": 148,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 9,
+          "start_internal_page": 151,
+          "end_internal_page": 172,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 6,
+          "start_internal_page": 115,
+          "end_internal_page": 136,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 11,
+          "start_internal_page": 207,
+          "end_internal_page": 224,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 9,
+          "start_internal_page": 143,
+          "end_internal_page": 162,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 8,
+          "start_internal_page": 181,
+          "end_internal_page": 200,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 13,
+          "start_internal_page": 289,
+          "end_internal_page": 308,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 18,
+          "start_internal_page": 349,
+          "end_internal_page": 368,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 14,
+          "start_internal_page": 299,
+          "end_internal_page": 326,
+          "page_count": 28
+        }
+      ]
+    },
+    "全4弾の特別企画！お宝大噴夏！激アツッ！トレジャーボックス応募者全員サービス!!!第3弾": {
+      "appearances": 1,
+      "min_pages": 1,
+      "max_pages": 1,
+      "average_pages": 1,
+      "median_pages": 1,
+      "page_counts": [
+        1
+      ],
+      "issues": [
+        "2026-37_38"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 6,
+          "start_internal_page": 104,
+          "end_internal_page": 104,
+          "page_count": 1
+        }
+      ]
+    },
+    "SAKAMOTO DAYS": {
+      "appearances": 18,
+      "min_pages": 20,
+      "max_pages": 36,
+      "average_pages": 22.67,
+      "median_pages": 22.0,
+      "page_counts": [
+        20,
+        20,
+        20,
+        20,
+        36,
+        28,
+        22,
+        20,
+        22,
+        24,
+        20,
+        24,
+        22,
+        22,
+        22,
+        22,
+        22,
+        22
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 7,
+          "start_internal_page": 105,
+          "end_internal_page": 124,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 4,
+          "start_internal_page": 69,
+          "end_internal_page": 88,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 4,
+          "start_internal_page": 59,
+          "end_internal_page": 78,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 3,
+          "start_internal_page": 43,
+          "end_internal_page": 62,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 13,
+          "start_internal_page": 251,
+          "end_internal_page": 286,
+          "page_count": 36
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 8,
+          "start_internal_page": 153,
+          "end_internal_page": 180,
+          "page_count": 28
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 4,
+          "start_internal_page": 99,
+          "end_internal_page": 120,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 7,
+          "start_internal_page": 165,
+          "end_internal_page": 184,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 4,
+          "start_internal_page": 97,
+          "end_internal_page": 118,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 8,
+          "start_internal_page": 149,
+          "end_internal_page": 172,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 5,
+          "start_internal_page": 67,
+          "end_internal_page": 86,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 4,
+          "start_internal_page": 69,
+          "end_internal_page": 92,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 9,
+          "start_internal_page": 165,
+          "end_internal_page": 186,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 6,
+          "start_internal_page": 133,
+          "end_internal_page": 154,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 5,
+          "start_internal_page": 97,
+          "end_internal_page": 118,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 10,
+          "start_internal_page": 227,
+          "end_internal_page": 248,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 9,
+          "start_internal_page": 151,
+          "end_internal_page": 172,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 9,
+          "start_internal_page": 167,
+          "end_internal_page": 188,
+          "page_count": 22
+        }
+      ]
+    },
+    "笑わないでよ しじまさん": {
+      "appearances": 1,
+      "min_pages": 62,
+      "max_pages": 62,
+      "average_pages": 62,
+      "median_pages": 62,
+      "page_counts": [
+        62
+      ],
+      "issues": [
+        "2026-37_38"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 8,
+          "start_internal_page": 125,
+          "end_internal_page": 186,
+          "page_count": 62
+        }
+      ]
+    },
+    "しのびごと": {
+      "appearances": 20,
+      "min_pages": 20,
+      "max_pages": 36,
+      "average_pages": 21.6,
+      "median_pages": 20.0,
+      "page_counts": [
+        20,
+        22,
+        20,
+        36,
+        20,
+        20,
+        24,
+        22,
+        20,
+        20,
+        22,
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        22,
+        22,
+        20
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 9,
+          "start_internal_page": 187,
+          "end_internal_page": 206,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 13,
+          "start_internal_page": 255,
+          "end_internal_page": 276,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 8,
+          "start_internal_page": 145,
+          "end_internal_page": 164,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 10,
+          "start_internal_page": 181,
+          "end_internal_page": 216,
+          "page_count": 36
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 10,
+          "start_internal_page": 185,
+          "end_internal_page": 204,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 19,
+          "start_internal_page": 407,
+          "end_internal_page": 426,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 20,
+          "start_internal_page": 385,
+          "end_internal_page": 408,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 11,
+          "start_internal_page": 251,
+          "end_internal_page": 272,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 9,
+          "start_internal_page": 205,
+          "end_internal_page": 224,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 11,
+          "start_internal_page": 243,
+          "end_internal_page": 262,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 6,
+          "start_internal_page": 107,
+          "end_internal_page": 128,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 13,
+          "start_internal_page": 263,
+          "end_internal_page": 282,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 10,
+          "start_internal_page": 227,
+          "end_internal_page": 246,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 14,
+          "start_internal_page": 299,
+          "end_internal_page": 318,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 20,
+          "start_internal_page": 403,
+          "end_internal_page": 422,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 9,
+          "start_internal_page": 201,
+          "end_internal_page": 220,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 9,
+          "start_internal_page": 185,
+          "end_internal_page": 206,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 14,
+          "start_internal_page": 331,
+          "end_internal_page": 352,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 8,
+          "start_internal_page": 129,
+          "end_internal_page": 150,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 12,
+          "start_internal_page": 259,
+          "end_internal_page": 278,
+          "page_count": 20
+        }
+      ]
+    },
+    "50周蟷ｴ企画!!ジャ繝ｳプ若手編髮？部員がふ繧返る！こち亀の歴史": {
+      "appearances": 1,
+      "min_pages": 16,
+      "max_pages": 16,
+      "average_pages": 16,
+      "median_pages": 16,
+      "page_counts": [
+        16
+      ],
+      "issues": [
+        "2026-37_38"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 10,
+          "start_internal_page": 207,
+          "end_internal_page": 222,
+          "page_count": 16
+        }
+      ]
+    },
+    "付録 「50周蟷ｴ企画!!ジャ繝ｳプ若手編髮？部員がふ繧返る！こち亀の歴史」ポストカード用イラスト": {
+      "appearances": 1,
+      "min_pages": 2,
+      "max_pages": 2,
+      "average_pages": 2,
+      "median_pages": 2,
+      "page_counts": [
+        2
+      ],
+      "issues": [
+        "2026-37_38"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 11,
+          "start_internal_page": 223,
+          "end_internal_page": 224,
+          "page_count": 2
+        }
+      ]
+    },
+    "さむわんへるつ": {
+      "appearances": 19,
+      "min_pages": 20,
+      "max_pages": 22,
+      "average_pages": 20.53,
+      "median_pages": 20,
+      "page_counts": [
+        22,
+        20,
+        20,
+        22,
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        20,
+        20,
+        20,
+        20,
+        22,
+        20,
+        20,
+        22,
+        20
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 12,
+          "start_internal_page": 225,
+          "end_internal_page": 246,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 3,
+          "start_internal_page": 49,
+          "end_internal_page": 68,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 5,
+          "start_internal_page": 83,
+          "end_internal_page": 102,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 7,
+          "start_internal_page": 119,
+          "end_internal_page": 140,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 5,
+          "start_internal_page": 83,
+          "end_internal_page": 102,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 3,
+          "start_internal_page": 49,
+          "end_internal_page": 68,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 5,
+          "start_internal_page": 87,
+          "end_internal_page": 106,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 7,
+          "start_internal_page": 167,
+          "end_internal_page": 186,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 8,
+          "start_internal_page": 185,
+          "end_internal_page": 204,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 3,
+          "start_internal_page": 75,
+          "end_internal_page": 96,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 6,
+          "start_internal_page": 87,
+          "end_internal_page": 106,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 3,
+          "start_internal_page": 49,
+          "end_internal_page": 68,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 5,
+          "start_internal_page": 85,
+          "end_internal_page": 104,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 8,
+          "start_internal_page": 123,
+          "end_internal_page": 142,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 10,
+          "start_internal_page": 221,
+          "end_internal_page": 242,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 7,
+          "start_internal_page": 145,
+          "end_internal_page": 164,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 4,
+          "start_internal_page": 109,
+          "end_internal_page": 128,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 7,
+          "start_internal_page": 107,
+          "end_internal_page": 128,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 5,
+          "start_internal_page": 87,
+          "end_internal_page": 106,
+          "page_count": 20
+        }
+      ]
+    },
+    "ロクのおかしな家": {
+      "appearances": 16,
+      "min_pages": 19,
+      "max_pages": 26,
+      "average_pages": 20.88,
+      "median_pages": 20.0,
+      "page_counts": [
+        20,
+        19,
+        22,
+        19,
+        22,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        24,
+        26
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 13,
+          "start_internal_page": 247,
+          "end_internal_page": 266,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 9,
+          "start_internal_page": 165,
+          "end_internal_page": 183,
+          "page_count": 19
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 16,
+          "start_internal_page": 347,
+          "end_internal_page": 368,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 14,
+          "start_internal_page": 265,
+          "end_internal_page": 283,
+          "page_count": 19
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 11,
+          "start_internal_page": 205,
+          "end_internal_page": 226,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 13,
+          "start_internal_page": 267,
+          "end_internal_page": 286,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 10,
+          "start_internal_page": 231,
+          "end_internal_page": 250,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 15,
+          "start_internal_page": 307,
+          "end_internal_page": 326,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 6,
+          "start_internal_page": 141,
+          "end_internal_page": 160,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 10,
+          "start_internal_page": 221,
+          "end_internal_page": 240,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 12,
+          "start_internal_page": 243,
+          "end_internal_page": 262,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 11,
+          "start_internal_page": 247,
+          "end_internal_page": 266,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 8,
+          "start_internal_page": 145,
+          "end_internal_page": 164,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 12,
+          "start_internal_page": 205,
+          "end_internal_page": 226,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 11,
+          "start_internal_page": 243,
+          "end_internal_page": 266,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 6,
+          "start_internal_page": 119,
+          "end_internal_page": 144,
+          "page_count": 26
+        }
+      ]
+    },
+    "鵺の陰陽師": {
+      "appearances": 19,
+      "min_pages": 20,
+      "max_pages": 22,
+      "average_pages": 20.63,
+      "median_pages": 20,
+      "page_counts": [
+        20,
+        20,
+        22,
+        20,
+        20,
+        22,
+        20,
+        22,
+        20,
+        20,
+        20,
+        20,
+        22,
+        20,
+        20,
+        22,
+        20,
+        20,
+        22
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 14,
+          "start_internal_page": 267,
+          "end_internal_page": 286,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 19,
+          "start_internal_page": 375,
+          "end_internal_page": 394,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 17,
+          "start_internal_page": 331,
+          "end_internal_page": 352,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 6,
+          "start_internal_page": 99,
+          "end_internal_page": 118,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 20,
+          "start_internal_page": 411,
+          "end_internal_page": 430,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 20,
+          "start_internal_page": 427,
+          "end_internal_page": 448,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 21,
+          "start_internal_page": 409,
+          "end_internal_page": 428,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 17,
+          "start_internal_page": 357,
+          "end_internal_page": 378,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 20,
+          "start_internal_page": 429,
+          "end_internal_page": 448,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 7,
+          "start_internal_page": 161,
+          "end_internal_page": 180,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 18,
+          "start_internal_page": 387,
+          "end_internal_page": 406,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 18,
+          "start_internal_page": 347,
+          "end_internal_page": 366,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 19,
+          "start_internal_page": 409,
+          "end_internal_page": 430,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 22,
+          "start_internal_page": 439,
+          "end_internal_page": 458,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 17,
+          "start_internal_page": 393,
+          "end_internal_page": 412,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 12,
+          "start_internal_page": 267,
+          "end_internal_page": 288,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 16,
+          "start_internal_page": 373,
+          "end_internal_page": 392,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 20,
+          "start_internal_page": 389,
+          "end_internal_page": 408,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 15,
+          "start_internal_page": 327,
+          "end_internal_page": 348,
+          "page_count": 22
+        }
+      ]
+    },
+    "アニマルシグナル": {
+      "appearances": 9,
+      "min_pages": 20,
+      "max_pages": 26,
+      "average_pages": 21.78,
+      "median_pages": 20,
+      "page_counts": [
+        20,
+        22,
+        20,
+        24,
+        20,
+        20,
+        20,
+        24,
+        26
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 15,
+          "start_internal_page": 287,
+          "end_internal_page": 306,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 17,
+          "start_internal_page": 331,
+          "end_internal_page": 352,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 18,
+          "start_internal_page": 353,
+          "end_internal_page": 372,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 15,
+          "start_internal_page": 323,
+          "end_internal_page": 346,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 9,
+          "start_internal_page": 165,
+          "end_internal_page": 184,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 10,
+          "start_internal_page": 185,
+          "end_internal_page": 204,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 12,
+          "start_internal_page": 247,
+          "end_internal_page": 266,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 8,
+          "start_internal_page": 187,
+          "end_internal_page": 210,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 5,
+          "start_internal_page": 119,
+          "end_internal_page": 144,
+          "page_count": 26
+        }
+      ]
+    },
+    "僕とロボコ": {
+      "appearances": 19,
+      "min_pages": 16,
+      "max_pages": 28,
+      "average_pages": 17.26,
+      "median_pages": 16,
+      "page_counts": [
+        16,
+        16,
+        16,
+        18,
+        16,
+        16,
+        16,
+        18,
+        28,
+        16,
+        16,
+        18,
+        16,
+        16,
+        18,
+        16,
+        16,
+        20,
+        16
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 16,
+          "start_internal_page": 307,
+          "end_internal_page": 322,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 14,
+          "start_internal_page": 277,
+          "end_internal_page": 292,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 19,
+          "start_internal_page": 373,
+          "end_internal_page": 388,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 6,
+          "start_internal_page": 103,
+          "end_internal_page": 120,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 9,
+          "start_internal_page": 169,
+          "end_internal_page": 184,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 16,
+          "start_internal_page": 327,
+          "end_internal_page": 342,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 14,
+          "start_internal_page": 313,
+          "end_internal_page": 328,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 12,
+          "start_internal_page": 249,
+          "end_internal_page": 266,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 13,
+          "start_internal_page": 283,
+          "end_internal_page": 310,
+          "page_count": 28
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 16,
+          "start_internal_page": 351,
+          "end_internal_page": 366,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 16,
+          "start_internal_page": 311,
+          "end_internal_page": 326,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 13,
+          "start_internal_page": 305,
+          "end_internal_page": 322,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 6,
+          "start_internal_page": 105,
+          "end_internal_page": 120,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 21,
+          "start_internal_page": 423,
+          "end_internal_page": 438,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 19,
+          "start_internal_page": 433,
+          "end_internal_page": 450,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 15,
+          "start_internal_page": 329,
+          "end_internal_page": 344,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 7,
+          "start_internal_page": 167,
+          "end_internal_page": 182,
+          "page_count": 16
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 11,
+          "start_internal_page": 223,
+          "end_internal_page": 242,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 6,
+          "start_internal_page": 107,
+          "end_internal_page": 122,
+          "page_count": 16
+        }
+      ]
+    },
+    "カノンマスター": {
+      "appearances": 7,
+      "min_pages": 19,
+      "max_pages": 26,
+      "average_pages": 21.57,
+      "median_pages": 20,
+      "page_counts": [
+        22,
+        19,
+        20,
+        20,
+        20,
+        24,
+        26
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 17,
+          "start_internal_page": 323,
+          "end_internal_page": 344,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 11,
+          "start_internal_page": 219,
+          "end_internal_page": 237,
+          "page_count": 19
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 13,
+          "start_internal_page": 249,
+          "end_internal_page": 268,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 9,
+          "start_internal_page": 161,
+          "end_internal_page": 180,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 11,
+          "start_internal_page": 205,
+          "end_internal_page": 224,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 12,
+          "start_internal_page": 227,
+          "end_internal_page": 250,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 6,
+          "start_internal_page": 107,
+          "end_internal_page": 132,
+          "page_count": 26
+        }
+      ]
+    },
+    "HAL FORMULA": {
+      "appearances": 8,
+      "min_pages": 20,
+      "max_pages": 26,
+      "average_pages": 21.25,
+      "median_pages": 20.0,
+      "page_counts": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        24,
+        26
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 18,
+          "start_internal_page": 345,
+          "end_internal_page": 364,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 15,
+          "start_internal_page": 293,
+          "end_internal_page": 312,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 15,
+          "start_internal_page": 289,
+          "end_internal_page": 308,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 13,
+          "start_internal_page": 283,
+          "end_internal_page": 302,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 13,
+          "start_internal_page": 245,
+          "end_internal_page": 264,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 8,
+          "start_internal_page": 149,
+          "end_internal_page": 168,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 10,
+          "start_internal_page": 203,
+          "end_internal_page": 226,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 5,
+          "start_internal_page": 121,
+          "end_internal_page": 146,
+          "page_count": 26
+        }
+      ]
+    },
+    "カグラバチ": {
+      "appearances": 12,
+      "min_pages": 20,
+      "max_pages": 38,
+      "average_pages": 22,
+      "median_pages": 20.0,
+      "page_counts": [
+        22,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        24,
+        38,
+        20,
+        20
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-30",
+        "2026-29",
+        "2026-27",
+        "2026-26",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 19,
+          "start_internal_page": 365,
+          "end_internal_page": 386,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 9,
+          "start_internal_page": 179,
+          "end_internal_page": 198,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 14,
+          "start_internal_page": 269,
+          "end_internal_page": 288,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 12,
+          "start_internal_page": 273,
+          "end_internal_page": 292,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 14,
+          "start_internal_page": 287,
+          "end_internal_page": 306,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 17,
+          "start_internal_page": 367,
+          "end_internal_page": 386,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 11,
+          "start_internal_page": 223,
+          "end_internal_page": 242,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 11,
+          "start_internal_page": 185,
+          "end_internal_page": 204,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 16,
+          "start_internal_page": 369,
+          "end_internal_page": 392,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 11,
+          "start_internal_page": 229,
+          "end_internal_page": 266,
+          "page_count": 38
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 6,
+          "start_internal_page": 147,
+          "end_internal_page": 166,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 6,
+          "start_internal_page": 87,
+          "end_internal_page": 106,
+          "page_count": 20
+        }
+      ]
+    },
+    "悪祓士のキヨシくん": {
+      "appearances": 19,
+      "min_pages": 20,
+      "max_pages": 24,
+      "average_pages": 20.84,
+      "median_pages": 20,
+      "page_counts": [
+        22,
+        20,
+        22,
+        20,
+        20,
+        20,
+        22,
+        22,
+        20,
+        20,
+        20,
+        20,
+        24,
+        22,
+        20,
+        20,
+        20,
+        20,
+        22
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 20,
+          "start_internal_page": 387,
+          "end_internal_page": 408,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 10,
+          "start_internal_page": 199,
+          "end_internal_page": 218,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 6,
+          "start_internal_page": 103,
+          "end_internal_page": 124,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 14,
+          "start_internal_page": 303,
+          "end_internal_page": 322,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 18,
+          "start_internal_page": 371,
+          "end_internal_page": 390,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 18,
+          "start_internal_page": 387,
+          "end_internal_page": 406,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 19,
+          "start_internal_page": 401,
+          "end_internal_page": 422,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 18,
+          "start_internal_page": 387,
+          "end_internal_page": 408,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 12,
+          "start_internal_page": 263,
+          "end_internal_page": 282,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 11,
+          "start_internal_page": 241,
+          "end_internal_page": 260,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 17,
+          "start_internal_page": 327,
+          "end_internal_page": 346,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 16,
+          "start_internal_page": 363,
+          "end_internal_page": 382,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 7,
+          "start_internal_page": 121,
+          "end_internal_page": 144,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 10,
+          "start_internal_page": 163,
+          "end_internal_page": 184,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 14,
+          "start_internal_page": 327,
+          "end_internal_page": 346,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 8,
+          "start_internal_page": 165,
+          "end_internal_page": 184,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 17,
+          "start_internal_page": 393,
+          "end_internal_page": 412,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 19,
+          "start_internal_page": 369,
+          "end_internal_page": 388,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 7,
+          "start_internal_page": 123,
+          "end_internal_page": 144,
+          "page_count": 22
+        }
+      ]
+    },
+    "2年B組 勇者デストロイヤーず": {
+      "appearances": 15,
+      "min_pages": 20,
+      "max_pages": 26,
+      "average_pages": 21.07,
+      "median_pages": 20,
+      "page_counts": [
+        20,
+        20,
+        20,
+        22,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        20,
+        26,
+        26
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 21,
+          "start_internal_page": 409,
+          "end_internal_page": 428,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 20,
+          "start_internal_page": 395,
+          "end_internal_page": 414,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 23,
+          "start_internal_page": 449,
+          "end_internal_page": 468,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 20,
+          "start_internal_page": 411,
+          "end_internal_page": 432,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 22,
+          "start_internal_page": 453,
+          "end_internal_page": 472,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 7,
+          "start_internal_page": 129,
+          "end_internal_page": 148,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 7,
+          "start_internal_page": 133,
+          "end_internal_page": 152,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 6,
+          "start_internal_page": 147,
+          "end_internal_page": 166,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 13,
+          "start_internal_page": 267,
+          "end_internal_page": 286,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 10,
+          "start_internal_page": 223,
+          "end_internal_page": 242,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 14,
+          "start_internal_page": 311,
+          "end_internal_page": 330,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 8,
+          "start_internal_page": 129,
+          "end_internal_page": 150,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 9,
+          "start_internal_page": 207,
+          "end_internal_page": 226,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 12,
+          "start_internal_page": 225,
+          "end_internal_page": 250,
+          "page_count": 26
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 7,
+          "start_internal_page": 97,
+          "end_internal_page": 122,
+          "page_count": 26
+        }
+      ]
+    },
+    "HUNTER×HUNTER": {
+      "appearances": 7,
+      "min_pages": 20,
+      "max_pages": 22,
+      "average_pages": 21.14,
+      "median_pages": 22,
+      "page_counts": [
+        22,
+        22,
+        20,
+        22,
+        20,
+        20,
+        22
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 22,
+          "start_internal_page": 429,
+          "end_internal_page": 450,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 21,
+          "start_internal_page": 415,
+          "end_internal_page": 436,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 20,
+          "start_internal_page": 389,
+          "end_internal_page": 408,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 17,
+          "start_internal_page": 369,
+          "end_internal_page": 390,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 17,
+          "start_internal_page": 351,
+          "end_internal_page": 370,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 16,
+          "start_internal_page": 349,
+          "end_internal_page": 368,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 9,
+          "start_internal_page": 181,
+          "end_internal_page": 202,
+          "page_count": 22
+        }
+      ]
+    },
+    "UNDER DOCTOR": {
+      "appearances": 20,
+      "min_pages": 20,
+      "max_pages": 22,
+      "average_pages": 20.55,
+      "median_pages": 20.0,
+      "page_counts": [
+        22,
+        22,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        20,
+        22,
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        20,
+        20,
+        22,
+        20
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 23,
+          "start_internal_page": 451,
+          "end_internal_page": 472,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 18,
+          "start_internal_page": 353,
+          "end_internal_page": 374,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 21,
+          "start_internal_page": 409,
+          "end_internal_page": 428,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 8,
+          "start_internal_page": 141,
+          "end_internal_page": 160,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 19,
+          "start_internal_page": 391,
+          "end_internal_page": 410,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 22,
+          "start_internal_page": 469,
+          "end_internal_page": 488,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 14,
+          "start_internal_page": 287,
+          "end_internal_page": 306,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 22,
+          "start_internal_page": 463,
+          "end_internal_page": 483,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 21,
+          "start_internal_page": 449,
+          "end_internal_page": 468,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 15,
+          "start_internal_page": 315,
+          "end_internal_page": 336,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 19,
+          "start_internal_page": 407,
+          "end_internal_page": 426,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 21,
+          "start_internal_page": 407,
+          "end_internal_page": 426,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 17,
+          "start_internal_page": 383,
+          "end_internal_page": 402,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 20,
+          "start_internal_page": 431,
+          "end_internal_page": 450,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 18,
+          "start_internal_page": 363,
+          "end_internal_page": 382,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 15,
+          "start_internal_page": 347,
+          "end_internal_page": 368,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 18,
+          "start_internal_page": 385,
+          "end_internal_page": 404,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 12,
+          "start_internal_page": 273,
+          "end_internal_page": 292,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 13,
+          "start_internal_page": 247,
+          "end_internal_page": 268,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 13,
+          "start_internal_page": 279,
+          "end_internal_page": 298,
+          "page_count": 20
+        }
+      ]
+    },
+    "夏と蛍籠": {
+      "appearances": 16,
+      "min_pages": 19,
+      "max_pages": 26,
+      "average_pages": 21.31,
+      "median_pages": 20.0,
+      "page_counts": [
+        20,
+        22,
+        20,
+        20,
+        22,
+        20,
+        20,
+        22,
+        19,
+        20,
+        20,
+        24,
+        22,
+        20,
+        24,
+        26
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 24,
+          "start_internal_page": 473,
+          "end_internal_page": 492,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 22,
+          "start_internal_page": 437,
+          "end_internal_page": 458,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 24,
+          "start_internal_page": 469,
+          "end_internal_page": 488,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 21,
+          "start_internal_page": 433,
+          "end_internal_page": 452,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 21,
+          "start_internal_page": 431,
+          "end_internal_page": 452,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 21,
+          "start_internal_page": 449,
+          "end_internal_page": 468,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 19,
+          "start_internal_page": 365,
+          "end_internal_page": 384,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 18,
+          "start_internal_page": 379,
+          "end_internal_page": 400,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 10,
+          "start_internal_page": 225,
+          "end_internal_page": 243,
+          "page_count": 19
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 8,
+          "start_internal_page": 181,
+          "end_internal_page": 200,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 12,
+          "start_internal_page": 261,
+          "end_internal_page": 280,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 14,
+          "start_internal_page": 283,
+          "end_internal_page": 306,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 7,
+          "start_internal_page": 137,
+          "end_internal_page": 158,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 10,
+          "start_internal_page": 187,
+          "end_internal_page": 206,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 14,
+          "start_internal_page": 277,
+          "end_internal_page": 300,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 7,
+          "start_internal_page": 155,
+          "end_internal_page": 180,
+          "page_count": 26
+        }
+      ]
+    },
+    "回撃のキナト": {
+      "appearances": 20,
+      "min_pages": 20,
+      "max_pages": 38,
+      "average_pages": 21.25,
+      "median_pages": 20.0,
+      "page_counts": [
+        20,
+        20,
+        20,
+        21,
+        20,
+        21,
+        20,
+        20,
+        20,
+        21,
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        20,
+        38,
+        20,
+        22
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 25,
+          "start_internal_page": 493,
+          "end_internal_page": 512,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 23,
+          "start_internal_page": 459,
+          "end_internal_page": 478,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 22,
+          "start_internal_page": 429,
+          "end_internal_page": 448,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 22,
+          "start_internal_page": 453,
+          "end_internal_page": 473,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 23,
+          "start_internal_page": 473,
+          "end_internal_page": 492,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 23,
+          "start_internal_page": 489,
+          "end_internal_page": 509,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 22,
+          "start_internal_page": 429,
+          "end_internal_page": 448,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 21,
+          "start_internal_page": 443,
+          "end_internal_page": 462,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 22,
+          "start_internal_page": 469,
+          "end_internal_page": 488,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 21,
+          "start_internal_page": 437,
+          "end_internal_page": 457,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 20,
+          "start_internal_page": 427,
+          "end_internal_page": 446,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 22,
+          "start_internal_page": 427,
+          "end_internal_page": 446,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 19,
+          "start_internal_page": 423,
+          "end_internal_page": 442,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 21,
+          "start_internal_page": 451,
+          "end_internal_page": 470,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 23,
+          "start_internal_page": 459,
+          "end_internal_page": 478,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 20,
+          "start_internal_page": 451,
+          "end_internal_page": 472,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 19,
+          "start_internal_page": 405,
+          "end_internal_page": 424,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 13,
+          "start_internal_page": 293,
+          "end_internal_page": 330,
+          "page_count": 38
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 17,
+          "start_internal_page": 329,
+          "end_internal_page": 348,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 8,
+          "start_internal_page": 145,
+          "end_internal_page": 166,
+          "page_count": 22
+        }
+      ]
+    },
+    "ルリドラゴン": {
+      "appearances": 5,
+      "min_pages": 21,
+      "max_pages": 21,
+      "average_pages": 21,
+      "median_pages": 21,
+      "page_counts": [
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      "issues": [
+        "2026-37_38",
+        "2026-35",
+        "2026-33",
+        "2026-29",
+        "2026-27"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 26,
+          "start_internal_page": 513,
+          "end_internal_page": 533,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 25,
+          "start_internal_page": 489,
+          "end_internal_page": 509,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 24,
+          "start_internal_page": 493,
+          "end_internal_page": 513,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 23,
+          "start_internal_page": 489,
+          "end_internal_page": 509,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 22,
+          "start_internal_page": 467,
+          "end_internal_page": 487,
+          "page_count": 21
+        }
+      ]
+    },
+    "本誌版次号予告／本誌版目次・作者コメント": {
+      "appearances": 20,
+      "min_pages": null,
+      "max_pages": null,
+      "average_pages": null,
+      "median_pages": null,
+      "page_counts": [],
+      "issues": [
+        "2026-37_38",
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-37_38",
+          "magazine": "週刊少年ジャンプ 2026年37・38合併号",
+          "order": 27,
+          "start_internal_page": 534,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 25,
+          "start_internal_page": 502,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 26,
+          "start_internal_page": 510,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 23,
+          "start_internal_page": 474,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 25,
+          "start_internal_page": 514,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 24,
+          "start_internal_page": 510,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 24,
+          "start_internal_page": 470,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 23,
+          "start_internal_page": 484,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 24,
+          "start_internal_page": 510,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 22,
+          "start_internal_page": 458,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 23,
+          "start_internal_page": 488,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 24,
+          "start_internal_page": 468,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 21,
+          "start_internal_page": 464,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 23,
+          "start_internal_page": 492,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 25,
+          "start_internal_page": 500,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 22,
+          "start_internal_page": 494,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 22,
+          "start_internal_page": 458,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 22,
+          "start_internal_page": 490,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 24,
+          "start_internal_page": 470,
+          "end_internal_page": null,
+          "page_count": null
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 22,
+          "start_internal_page": 454,
+          "end_internal_page": null,
+          "page_count": null
+        }
+      ]
+    },
+    "ロクのおかしな家(巻頭カラー)": {
+      "appearances": 2,
+      "min_pages": 22,
+      "max_pages": 24,
+      "average_pages": 23,
+      "median_pages": 23.0,
+      "page_counts": [
+        24,
+        22
+      ],
+      "issues": [
+        "2026-36",
+        "2026-19"
+      ],
+      "entries": [
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 28,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 26,
+          "page_count": 22
+        }
+      ]
+    },
+    "ロクのおかしな家(モノクロ冒頭ページ)": {
+      "appearances": 2,
+      "min_pages": 20,
+      "max_pages": 54,
+      "average_pages": 37,
+      "median_pages": 37.0,
+      "page_counts": [
+        20,
+        54
+      ],
+      "issues": [
+        "2026-36",
+        "2026-19"
+      ],
+      "entries": [
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 2,
+          "start_internal_page": 29,
+          "end_internal_page": 48,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 3,
+          "start_internal_page": 55,
+          "end_internal_page": 108,
+          "page_count": 54
+        }
+      ]
+    },
+    "こちら葛飾区亀有公園前派出所": {
+      "appearances": 1,
+      "min_pages": 38,
+      "max_pages": 38,
+      "average_pages": 38,
+      "median_pages": 38,
+      "page_counts": [
+        38
+      ],
+      "issues": [
+        "2026-36"
+      ],
+      "entries": [
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 6,
+          "start_internal_page": 109,
+          "end_internal_page": 146,
+          "page_count": 38
+        }
+      ]
+    },
+    "『こち亀』新人ギャグコメディ作家トリビュート漫画祭り!!": {
+      "appearances": 1,
+      "min_pages": 12,
+      "max_pages": 12,
+      "average_pages": 12,
+      "median_pages": 12,
+      "page_counts": [
+        12
+      ],
+      "issues": [
+        "2026-36"
+      ],
+      "entries": [
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 7,
+          "start_internal_page": 147,
+          "end_internal_page": 158,
+          "page_count": 12
+        }
+      ]
+    },
+    "あかね噺": {
+      "appearances": 18,
+      "min_pages": 20,
+      "max_pages": 38,
+      "average_pages": 23.78,
+      "median_pages": 22.0,
+      "page_counts": [
+        20,
+        20,
+        20,
+        20,
+        22,
+        20,
+        20,
+        22,
+        22,
+        22,
+        20,
+        38,
+        22,
+        38,
+        36,
+        20,
+        24,
+        22
+      ],
+      "issues": [
+        "2026-36",
+        "2026-35",
+        "2026-34",
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 8,
+          "start_internal_page": 159,
+          "end_internal_page": 178,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 3,
+          "start_internal_page": 43,
+          "end_internal_page": 62,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 3,
+          "start_internal_page": 39,
+          "end_internal_page": 58,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 4,
+          "start_internal_page": 63,
+          "end_internal_page": 82,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 6,
+          "start_internal_page": 107,
+          "end_internal_page": 128,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 11,
+          "start_internal_page": 227,
+          "end_internal_page": 246,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 9,
+          "start_internal_page": 211,
+          "end_internal_page": 230,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 3,
+          "start_internal_page": 79,
+          "end_internal_page": 100,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 9,
+          "start_internal_page": 201,
+          "end_internal_page": 222,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 5,
+          "start_internal_page": 85,
+          "end_internal_page": 106,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 19,
+          "start_internal_page": 367,
+          "end_internal_page": 386,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 12,
+          "start_internal_page": 267,
+          "end_internal_page": 304,
+          "page_count": 38
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 17,
+          "start_internal_page": 365,
+          "end_internal_page": 386,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 15,
+          "start_internal_page": 301,
+          "end_internal_page": 338,
+          "page_count": 38
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 12,
+          "start_internal_page": 267,
+          "end_internal_page": 302,
+          "page_count": 36
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 14,
+          "start_internal_page": 309,
+          "end_internal_page": 328,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 11,
+          "start_internal_page": 249,
+          "end_internal_page": 272,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 16,
+          "start_internal_page": 349,
+          "end_internal_page": 370,
+          "page_count": 22
+        }
+      ]
+    },
+    "全4弾の特別企画！お宝大噴夏！激アツッ！トレジャーボックス応募者全員サービス!!!第2弾": {
+      "appearances": 1,
+      "min_pages": 17,
+      "max_pages": 17,
+      "average_pages": 17,
+      "median_pages": 17,
+      "page_counts": [
+        17
+      ],
+      "issues": [
+        "2026-36"
+      ],
+      "entries": [
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 12,
+          "start_internal_page": 238,
+          "end_internal_page": 254,
+          "page_count": 17
+        }
+      ]
+    },
+    "付録 週刊少年ジャンプ連載作家が選ぶマイベスト『こち亀』エピソード!!": {
+      "appearances": 1,
+      "min_pages": 23,
+      "max_pages": 23,
+      "average_pages": 23,
+      "median_pages": 23,
+      "page_counts": [
+        23
+      ],
+      "issues": [
+        "2026-36"
+      ],
+      "entries": [
+        {
+          "issue": "2026-36",
+          "magazine": "週刊少年ジャンプ 2026年36号",
+          "order": 24,
+          "start_internal_page": 479,
+          "end_internal_page": 501,
+          "page_count": 23
+        }
+      ]
+    },
+    "SAKAMOTO DAYS(巻頭カラー)": {
+      "appearances": 2,
+      "min_pages": 18,
+      "max_pages": 22,
+      "average_pages": 20,
+      "median_pages": 20.0,
+      "page_counts": [
+        18,
+        22
+      ],
+      "issues": [
+        "2026-35",
+        "2026-22_23"
+      ],
+      "entries": [
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 22,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 2,
+          "start_internal_page": 11,
+          "end_internal_page": 32,
+          "page_count": 22
+        }
+      ]
+    },
+    "SAKAMOTO DAYS(モノクロ冒頭ページ)": {
+      "appearances": 2,
+      "min_pages": 20,
+      "max_pages": 20,
+      "average_pages": 20,
+      "median_pages": 20.0,
+      "page_counts": [
+        20,
+        20
+      ],
+      "issues": [
+        "2026-35",
+        "2026-22_23"
+      ],
+      "entries": [
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 2,
+          "start_internal_page": 23,
+          "end_internal_page": 42,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 3,
+          "start_internal_page": 33,
+          "end_internal_page": 52,
+          "page_count": 20
+        }
+      ]
+    },
+    "全4弾の特別企画！お宝大噴夏！激アツッ！トレジャーボックス応募者全員サービス!!!第1弾": {
+      "appearances": 1,
+      "min_pages": 11,
+      "max_pages": 11,
+      "average_pages": 11,
+      "median_pages": 11,
+      "page_counts": [
+        11
+      ],
+      "issues": [
+        "2026-35"
+      ],
+      "entries": [
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 10,
+          "start_internal_page": 184,
+          "end_internal_page": 194,
+          "page_count": 11
+        }
+      ]
+    },
+    "エンタメディスカバリー ジャンプ探検隊": {
+      "appearances": 7,
+      "min_pages": 2,
+      "max_pages": 6,
+      "average_pages": 4,
+      "median_pages": 4,
+      "page_counts": [
+        6,
+        4,
+        4,
+        4,
+        2,
+        4,
+        4
+      ],
+      "issues": [
+        "2026-35",
+        "2026-30",
+        "2026-28",
+        "2026-26",
+        "2026-22_23",
+        "2026-20",
+        "2026-18"
+      ],
+      "entries": [
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 11,
+          "start_internal_page": 195,
+          "end_internal_page": 200,
+          "page_count": 6
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 16,
+          "start_internal_page": 353,
+          "end_internal_page": 356,
+          "page_count": 4
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 14,
+          "start_internal_page": 311,
+          "end_internal_page": 314,
+          "page_count": 4
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 15,
+          "start_internal_page": 307,
+          "end_internal_page": 310,
+          "page_count": 4
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 16,
+          "start_internal_page": 339,
+          "end_internal_page": 340,
+          "page_count": 2
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 2,
+          "start_internal_page": 19,
+          "end_internal_page": 22,
+          "page_count": 4
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 12,
+          "start_internal_page": 243,
+          "end_internal_page": 246,
+          "page_count": 4
+        }
+      ]
+    },
+    "七不思議先輩と鉄人くん": {
+      "appearances": 1,
+      "min_pages": 48,
+      "max_pages": 48,
+      "average_pages": 48,
+      "median_pages": 48,
+      "page_counts": [
+        48
+      ],
+      "issues": [
+        "2026-35"
+      ],
+      "entries": [
+        {
+          "issue": "2026-35",
+          "magazine": "週刊少年ジャンプ 2026年35号",
+          "order": 12,
+          "start_internal_page": 201,
+          "end_internal_page": 248,
+          "page_count": 48
+        }
+      ]
+    },
+    "僕とロボコ(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 18,
+      "max_pages": 18,
+      "average_pages": 18,
+      "median_pages": 18,
+      "page_counts": [
+        18
+      ],
+      "issues": [
+        "2026-34"
+      ],
+      "entries": [
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 22,
+          "page_count": 18
+        }
+      ]
+    },
+    "僕とロボコ(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 16,
+      "max_pages": 16,
+      "average_pages": 16,
+      "median_pages": 16,
+      "page_counts": [
+        16
+      ],
+      "issues": [
+        "2026-34"
+      ],
+      "entries": [
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 2,
+          "start_internal_page": 23,
+          "end_internal_page": 38,
+          "page_count": 16
+        }
+      ]
+    },
+    "鳶のおんがえし": {
+      "appearances": 1,
+      "min_pages": 48,
+      "max_pages": 48,
+      "average_pages": 48,
+      "median_pages": 48,
+      "page_counts": [
+        48
+      ],
+      "issues": [
+        "2026-34"
+      ],
+      "entries": [
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 11,
+          "start_internal_page": 217,
+          "end_internal_page": 264,
+          "page_count": 48
+        }
+      ]
+    },
+    "貴族学園": {
+      "appearances": 2,
+      "min_pages": 19,
+      "max_pages": 20,
+      "average_pages": 19.5,
+      "median_pages": 19.5,
+      "page_counts": [
+        19,
+        20
+      ],
+      "issues": [
+        "2026-34",
+        "2026-32"
+      ],
+      "entries": [
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 18,
+          "start_internal_page": 391,
+          "end_internal_page": 409,
+          "page_count": 19
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 15,
+          "start_internal_page": 329,
+          "end_internal_page": 348,
+          "page_count": 20
+        }
+      ]
+    },
+    "『アオのハコ』連載完結記念 最終話まるごとデジタル原稿プリントmini 応募者全員サービス": {
+      "appearances": 2,
+      "min_pages": 1,
+      "max_pages": 17,
+      "average_pages": 9,
+      "median_pages": 9.0,
+      "page_counts": [
+        1,
+        17
+      ],
+      "issues": [
+        "2026-34",
+        "2026-33"
+      ],
+      "entries": [
+        {
+          "issue": "2026-34",
+          "magazine": "週刊少年ジャンプ 2026年34号",
+          "order": 19,
+          "start_internal_page": 410,
+          "end_internal_page": 410,
+          "page_count": 1
+        },
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 15,
+          "start_internal_page": 284,
+          "end_internal_page": 300,
+          "page_count": 17
+        }
+      ]
+    },
+    "ONE PIECE(巻頭カラー)": {
+      "appearances": 2,
+      "min_pages": 19,
+      "max_pages": 19,
+      "average_pages": 19,
+      "median_pages": 19.0,
+      "page_counts": [
+        19,
+        19
+      ],
+      "issues": [
+        "2026-33",
+        "2026-26"
+      ],
+      "entries": [
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 1,
+          "start_internal_page": 6,
+          "end_internal_page": 24,
+          "page_count": 19
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 2,
+          "start_internal_page": 8,
+          "end_internal_page": 26,
+          "page_count": 19
+        }
+      ]
+    },
+    "ONE PIECE(モノクロ冒頭ページ)": {
+      "appearances": 2,
+      "min_pages": 18,
+      "max_pages": 18,
+      "average_pages": 18,
+      "median_pages": 18.0,
+      "page_counts": [
+        18,
+        18
+      ],
+      "issues": [
+        "2026-33",
+        "2026-26"
+      ],
+      "entries": [
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 2,
+          "start_internal_page": 25,
+          "end_internal_page": 42,
+          "page_count": 18
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 3,
+          "start_internal_page": 27,
+          "end_internal_page": 44,
+          "page_count": 18
+        }
+      ]
+    },
+    "アオのハコ": {
+      "appearances": 15,
+      "min_pages": 19,
+      "max_pages": 30,
+      "average_pages": 22.2,
+      "median_pages": 22,
+      "page_counts": [
+        24,
+        20,
+        20,
+        24,
+        24,
+        20,
+        30,
+        22,
+        24,
+        19,
+        20,
+        24,
+        22,
+        20,
+        20
+      ],
+      "issues": [
+        "2026-33",
+        "2026-32",
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18"
+      ],
+      "entries": [
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 7,
+          "start_internal_page": 121,
+          "end_internal_page": 144,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 5,
+          "start_internal_page": 87,
+          "end_internal_page": 106,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 15,
+          "start_internal_page": 307,
+          "end_internal_page": 326,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 15,
+          "start_internal_page": 329,
+          "end_internal_page": 352,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 17,
+          "start_internal_page": 363,
+          "end_internal_page": 386,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 18,
+          "start_internal_page": 377,
+          "end_internal_page": 396,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 13,
+          "start_internal_page": 281,
+          "end_internal_page": 310,
+          "page_count": 30
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 7,
+          "start_internal_page": 107,
+          "end_internal_page": 128,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 14,
+          "start_internal_page": 323,
+          "end_internal_page": 346,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 15,
+          "start_internal_page": 319,
+          "end_internal_page": 337,
+          "page_count": 19
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 19,
+          "start_internal_page": 383,
+          "end_internal_page": 402,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 13,
+          "start_internal_page": 303,
+          "end_internal_page": 326,
+          "page_count": 24
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 10,
+          "start_internal_page": 207,
+          "end_internal_page": 228,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 9,
+          "start_internal_page": 207,
+          "end_internal_page": 226,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 14,
+          "start_internal_page": 269,
+          "end_internal_page": 288,
+          "page_count": 20
+        }
+      ]
+    },
+    "アイボーイ": {
+      "appearances": 1,
+      "min_pages": 50,
+      "max_pages": 50,
+      "average_pages": 50,
+      "median_pages": 50,
+      "page_counts": [
+        50
+      ],
+      "issues": [
+        "2026-33"
+      ],
+      "entries": [
+        {
+          "issue": "2026-33",
+          "magazine": "週刊少年ジャンプ 2026年33号",
+          "order": 16,
+          "start_internal_page": 301,
+          "end_internal_page": 350,
+          "page_count": 50
+        }
+      ]
+    },
+    "魔男のイチ(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 22,
+      "max_pages": 22,
+      "average_pages": 22,
+      "median_pages": 22,
+      "page_counts": [
+        22
+      ],
+      "issues": [
+        "2026-32"
+      ],
+      "entries": [
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 26,
+          "page_count": 22
+        }
+      ]
+    },
+    "魔男のイチ(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 22,
+      "max_pages": 22,
+      "average_pages": 22,
+      "median_pages": 22,
+      "page_counts": [
+        22
+      ],
+      "issues": [
+        "2026-32"
+      ],
+      "entries": [
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 2,
+          "start_internal_page": 27,
+          "end_internal_page": 48,
+          "page_count": 22
+        }
+      ]
+    },
+    "逃げ上手の若君PRESENT DAY": {
+      "appearances": 1,
+      "min_pages": 42,
+      "max_pages": 42,
+      "average_pages": 42,
+      "median_pages": 42,
+      "page_counts": [
+        42
+      ],
+      "issues": [
+        "2026-32"
+      ],
+      "entries": [
+        {
+          "issue": "2026-32",
+          "magazine": "週刊少年ジャンプ 2026年32号",
+          "order": 14,
+          "start_internal_page": 287,
+          "end_internal_page": 328,
+          "page_count": 42
+        }
+      ]
+    },
+    "悪祓士のキヨシくん(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 22,
+      "max_pages": 22,
+      "average_pages": 22,
+      "median_pages": 22,
+      "page_counts": [
+        22
+      ],
+      "issues": [
+        "2026-31"
+      ],
+      "entries": [
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 26,
+          "page_count": 22
+        }
+      ]
+    },
+    "悪祓士のキヨシくん(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 20,
+      "max_pages": 20,
+      "average_pages": 20,
+      "median_pages": 20,
+      "page_counts": [
+        20
+      ],
+      "issues": [
+        "2026-31"
+      ],
+      "entries": [
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 2,
+          "start_internal_page": 27,
+          "end_internal_page": 46,
+          "page_count": 20
+        }
+      ]
+    },
+    "ひまてん！": {
+      "appearances": 14,
+      "min_pages": 20,
+      "max_pages": 22,
+      "average_pages": 20.64,
+      "median_pages": 20.0,
+      "page_counts": [
+        21,
+        20,
+        20,
+        22,
+        20,
+        20,
+        20,
+        22,
+        22,
+        20,
+        20,
+        20,
+        20,
+        22
+      ],
+      "issues": [
+        "2026-31",
+        "2026-30",
+        "2026-29",
+        "2026-28",
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 17,
+          "start_internal_page": 343,
+          "end_internal_page": 363,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 20,
+          "start_internal_page": 423,
+          "end_internal_page": 442,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 19,
+          "start_internal_page": 409,
+          "end_internal_page": 428,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 20,
+          "start_internal_page": 415,
+          "end_internal_page": 436,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 15,
+          "start_internal_page": 331,
+          "end_internal_page": 350,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 20,
+          "start_internal_page": 387,
+          "end_internal_page": 406,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 18,
+          "start_internal_page": 403,
+          "end_internal_page": 422,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 18,
+          "start_internal_page": 387,
+          "end_internal_page": 408,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 17,
+          "start_internal_page": 341,
+          "end_internal_page": 362,
+          "page_count": 22
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 18,
+          "start_internal_page": 413,
+          "end_internal_page": 432,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 17,
+          "start_internal_page": 365,
+          "end_internal_page": 384,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 19,
+          "start_internal_page": 429,
+          "end_internal_page": 448,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 16,
+          "start_internal_page": 309,
+          "end_internal_page": 328,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 17,
+          "start_internal_page": 371,
+          "end_internal_page": 392,
+          "page_count": 22
+        }
+      ]
+    },
+    "ヒマリズ・レポート": {
+      "appearances": 1,
+      "min_pages": 1,
+      "max_pages": 1,
+      "average_pages": 1,
+      "median_pages": 1,
+      "page_counts": [
+        1
+      ],
+      "issues": [
+        "2026-31"
+      ],
+      "entries": [
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 18,
+          "start_internal_page": 364,
+          "end_internal_page": 364,
+          "page_count": 1
+        }
+      ]
+    },
+    "OBあたるくん": {
+      "appearances": 1,
+      "min_pages": 21,
+      "max_pages": 21,
+      "average_pages": 21,
+      "median_pages": 21,
+      "page_counts": [
+        21
+      ],
+      "issues": [
+        "2026-31"
+      ],
+      "entries": [
+        {
+          "issue": "2026-31",
+          "magazine": "週刊少年ジャンプ 2026年31号",
+          "order": 23,
+          "start_internal_page": 449,
+          "end_internal_page": 469,
+          "page_count": 21
+        }
+      ]
+    },
+    "カノンマスター(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 20,
+      "max_pages": 20,
+      "average_pages": 20,
+      "median_pages": 20,
+      "page_counts": [
+        20
+      ],
+      "issues": [
+        "2026-30"
+      ],
+      "entries": [
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 24,
+          "page_count": 20
+        }
+      ]
+    },
+    "カノンマスター(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 54,
+      "max_pages": 54,
+      "average_pages": 54,
+      "median_pages": 54,
+      "page_counts": [
+        54
+      ],
+      "issues": [
+        "2026-30"
+      ],
+      "entries": [
+        {
+          "issue": "2026-30",
+          "magazine": "週刊少年ジャンプ 2026年30号",
+          "order": 2,
+          "start_internal_page": 25,
+          "end_internal_page": 78,
+          "page_count": 54
+        }
+      ]
+    },
+    "HAL FORMULA(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 18,
+      "max_pages": 18,
+      "average_pages": 18,
+      "median_pages": 18,
+      "page_counts": [
+        18
+      ],
+      "issues": [
+        "2026-29"
+      ],
+      "entries": [
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 22,
+          "page_count": 18
+        }
+      ]
+    },
+    "HAL FORMULA(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 56,
+      "max_pages": 56,
+      "average_pages": 56,
+      "median_pages": 56,
+      "page_counts": [
+        56
+      ],
+      "issues": [
+        "2026-29"
+      ],
+      "entries": [
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 2,
+          "start_internal_page": 23,
+          "end_internal_page": 78,
+          "page_count": 56
+        }
+      ]
+    },
+    "4コマバンクシー": {
+      "appearances": 2,
+      "min_pages": 5,
+      "max_pages": 6,
+      "average_pages": 5.5,
+      "median_pages": 5.5,
+      "page_counts": [
+        5,
+        6
+      ],
+      "issues": [
+        "2026-29",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-29",
+          "magazine": "週刊少年ジャンプ 2026年29号",
+          "order": 11,
+          "start_internal_page": 244,
+          "end_internal_page": 248,
+          "page_count": 5
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 21,
+          "start_internal_page": 448,
+          "end_internal_page": 453,
+          "page_count": 6
+        }
+      ]
+    },
+    "アニマルシグナル(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 18,
+      "max_pages": 18,
+      "average_pages": 18,
+      "median_pages": 18,
+      "page_counts": [
+        18
+      ],
+      "issues": [
+        "2026-28"
+      ],
+      "entries": [
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 22,
+          "page_count": 18
+        }
+      ]
+    },
+    "アニマルシグナル(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 52,
+      "max_pages": 52,
+      "average_pages": 52,
+      "median_pages": 52,
+      "page_counts": [
+        52
+      ],
+      "issues": [
+        "2026-28"
+      ],
+      "entries": [
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 2,
+          "start_internal_page": 23,
+          "end_internal_page": 74,
+          "page_count": 52
+        }
+      ]
+    },
+    "詠唱破棄師ヤオ": {
+      "appearances": 1,
+      "min_pages": 18,
+      "max_pages": 18,
+      "average_pages": 18,
+      "median_pages": 18,
+      "page_counts": [
+        18
+      ],
+      "issues": [
+        "2026-28"
+      ],
+      "entries": [
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 17,
+          "start_internal_page": 359,
+          "end_internal_page": 376,
+          "page_count": 18
+        }
+      ]
+    },
+    "小さな世界": {
+      "appearances": 1,
+      "min_pages": 18,
+      "max_pages": 18,
+      "average_pages": 18,
+      "median_pages": 18,
+      "page_counts": [
+        18
+      ],
+      "issues": [
+        "2026-28"
+      ],
+      "entries": [
+        {
+          "issue": "2026-28",
+          "magazine": "週刊少年ジャンプ 2026年28号",
+          "order": 19,
+          "start_internal_page": 397,
+          "end_internal_page": 414,
+          "page_count": 18
+        }
+      ]
+    },
+    "さむわんへるつ(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 22,
+      "max_pages": 22,
+      "average_pages": 22,
+      "median_pages": 22,
+      "page_counts": [
+        22
+      ],
+      "issues": [
+        "2026-27"
+      ],
+      "entries": [
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 26,
+          "page_count": 22
+        }
+      ]
+    },
+    "さむわんへるつ(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 20,
+      "max_pages": 20,
+      "average_pages": 20,
+      "median_pages": 20,
+      "page_counts": [
+        20
+      ],
+      "issues": [
+        "2026-27"
+      ],
+      "entries": [
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 2,
+          "start_internal_page": 27,
+          "end_internal_page": 46,
+          "page_count": 20
+        }
+      ]
+    },
+    "田村家百物語": {
+      "appearances": 1,
+      "min_pages": 48,
+      "max_pages": 48,
+      "average_pages": 48,
+      "median_pages": 48,
+      "page_counts": [
+        48
+      ],
+      "issues": [
+        "2026-27"
+      ],
+      "entries": [
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 9,
+          "start_internal_page": 173,
+          "end_internal_page": 220,
+          "page_count": 48
+        }
+      ]
+    },
+    "エイリアンヘッドバット": {
+      "appearances": 10,
+      "min_pages": 20,
+      "max_pages": 22,
+      "average_pages": 20.7,
+      "median_pages": 21.0,
+      "page_counts": [
+        20,
+        21,
+        21,
+        21,
+        21,
+        21,
+        20,
+        20,
+        20,
+        22
+      ],
+      "issues": [
+        "2026-27",
+        "2026-26",
+        "2026-25",
+        "2026-24",
+        "2026-22_23",
+        "2026-21",
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-27",
+          "magazine": "週刊少年ジャンプ 2026年27号",
+          "order": 21,
+          "start_internal_page": 447,
+          "end_internal_page": 466,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 23,
+          "start_internal_page": 447,
+          "end_internal_page": 467,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 20,
+          "start_internal_page": 443,
+          "end_internal_page": 463,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 22,
+          "start_internal_page": 471,
+          "end_internal_page": 491,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 24,
+          "start_internal_page": 479,
+          "end_internal_page": 499,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 21,
+          "start_internal_page": 473,
+          "end_internal_page": 493,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 16,
+          "start_internal_page": 345,
+          "end_internal_page": 364,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 15,
+          "start_internal_page": 353,
+          "end_internal_page": 372,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 15,
+          "start_internal_page": 289,
+          "end_internal_page": 308,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 11,
+          "start_internal_page": 237,
+          "end_internal_page": 258,
+          "page_count": 22
+        }
+      ]
+    },
+    "特別付録 ONE PIECE×SAMURAI BLUEコラボ がんばれニッポン!!サッカー日本代表コラボフラッグ!!用イラスト": {
+      "appearances": 1,
+      "min_pages": 3,
+      "max_pages": 3,
+      "average_pages": 3,
+      "median_pages": 3,
+      "page_counts": [
+        3
+      ],
+      "issues": [
+        "2026-26"
+      ],
+      "entries": [
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 7,
+          "page_count": 3
+        }
+      ]
+    },
+    "New Year's Dayの怪物": {
+      "appearances": 1,
+      "min_pages": 50,
+      "max_pages": 50,
+      "average_pages": 50,
+      "median_pages": 50,
+      "page_counts": [
+        50
+      ],
+      "issues": [
+        "2026-26"
+      ],
+      "entries": [
+        {
+          "issue": "2026-26",
+          "magazine": "週刊少年ジャンプ 2026年26号",
+          "order": 10,
+          "start_internal_page": 173,
+          "end_internal_page": 222,
+          "page_count": 50
+        }
+      ]
+    },
+    "鵺の陰陽師(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 24,
+      "max_pages": 24,
+      "average_pages": 24,
+      "median_pages": 24,
+      "page_counts": [
+        24
+      ],
+      "issues": [
+        "2026-25"
+      ],
+      "entries": [
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 28,
+          "page_count": 24
+        }
+      ]
+    },
+    "鵺の陰陽師(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 20,
+      "max_pages": 20,
+      "average_pages": 20,
+      "median_pages": 20,
+      "page_counts": [
+        20
+      ],
+      "issues": [
+        "2026-25"
+      ],
+      "entries": [
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 2,
+          "start_internal_page": 29,
+          "end_internal_page": 48,
+          "page_count": 20
+        }
+      ]
+    },
+    "ブラッドマリッジ": {
+      "appearances": 1,
+      "min_pages": 48,
+      "max_pages": 48,
+      "average_pages": 48,
+      "median_pages": 48,
+      "page_counts": [
+        48
+      ],
+      "issues": [
+        "2026-25"
+      ],
+      "entries": [
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 8,
+          "start_internal_page": 159,
+          "end_internal_page": 206,
+          "page_count": 48
+        }
+      ]
+    },
+    "きさらぎ高等学校心霊写真部!!": {
+      "appearances": 1,
+      "min_pages": 16,
+      "max_pages": 16,
+      "average_pages": 16,
+      "median_pages": 16,
+      "page_counts": [
+        16
+      ],
+      "issues": [
+        "2026-25"
+      ],
+      "entries": [
+        {
+          "issue": "2026-25",
+          "magazine": "週刊少年ジャンプ 2026年25号",
+          "order": 15,
+          "start_internal_page": 347,
+          "end_internal_page": 362,
+          "page_count": 16
+        }
+      ]
+    },
+    "カグラバチ(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 19,
+      "max_pages": 19,
+      "average_pages": 19,
+      "median_pages": 19,
+      "page_counts": [
+        19
+      ],
+      "issues": [
+        "2026-24"
+      ],
+      "entries": [
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 1,
+          "start_internal_page": 6,
+          "end_internal_page": 24,
+          "page_count": 19
+        }
+      ]
+    },
+    "カグラバチ(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 22,
+      "max_pages": 22,
+      "average_pages": 22,
+      "median_pages": 22,
+      "page_counts": [
+        22
+      ],
+      "issues": [
+        "2026-24"
+      ],
+      "entries": [
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 2,
+          "start_internal_page": 25,
+          "end_internal_page": 46,
+          "page_count": 22
+        }
+      ]
+    },
+    "上海龍人": {
+      "appearances": 1,
+      "min_pages": 48,
+      "max_pages": 48,
+      "average_pages": 48,
+      "median_pages": 48,
+      "page_counts": [
+        48
+      ],
+      "issues": [
+        "2026-24"
+      ],
+      "entries": [
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 13,
+          "start_internal_page": 251,
+          "end_internal_page": 298,
+          "page_count": 48
+        }
+      ]
+    },
+    "ジャンプビクトリーカーニバル2026紹介マンガ 宇宙規模の衝撃！": {
+      "appearances": 1,
+      "min_pages": 27,
+      "max_pages": 27,
+      "average_pages": 27,
+      "median_pages": 27,
+      "page_counts": [
+        27
+      ],
+      "issues": [
+        "2026-24"
+      ],
+      "entries": [
+        {
+          "issue": "2026-24",
+          "magazine": "週刊少年ジャンプ 2026年24号",
+          "order": 16,
+          "start_internal_page": 338,
+          "end_internal_page": 364,
+          "page_count": 27
+        }
+      ]
+    },
+    "付録 『SAKAMOTO DAYS』大迫力の!!アクション大ゴマステッカー!!用イラスト": {
+      "appearances": 1,
+      "min_pages": 6,
+      "max_pages": 6,
+      "average_pages": 6,
+      "median_pages": 6,
+      "page_counts": [
+        6
+      ],
+      "issues": [
+        "2026-22_23"
+      ],
+      "entries": [
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 10,
+          "page_count": 6
+        }
+      ]
+    },
+    "「僕とロボコ」×実写映画「SAKAMOTO DAYS」！実録!?ロボコの潜入ルポ漫画！": {
+      "appearances": 1,
+      "min_pages": 6,
+      "max_pages": 6,
+      "average_pages": 6,
+      "median_pages": 6,
+      "page_counts": [
+        6
+      ],
+      "issues": [
+        "2026-22_23"
+      ],
+      "entries": [
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 4,
+          "start_internal_page": 53,
+          "end_internal_page": 58,
+          "page_count": 6
+        }
+      ]
+    },
+    "天才祓学者ラロ・パープルの初恋": {
+      "appearances": 1,
+      "min_pages": 50,
+      "max_pages": 50,
+      "average_pages": 50,
+      "median_pages": 50,
+      "page_counts": [
+        50
+      ],
+      "issues": [
+        "2026-22_23"
+      ],
+      "entries": [
+        {
+          "issue": "2026-22_23",
+          "magazine": "週刊少年ジャンプ 2026年22・23合併号",
+          "order": 13,
+          "start_internal_page": 227,
+          "end_internal_page": 276,
+          "page_count": 50
+        }
+      ]
+    },
+    "2年B組 勇者デストロイヤーず(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 22,
+      "max_pages": 22,
+      "average_pages": 22,
+      "median_pages": 22,
+      "page_counts": [
+        22
+      ],
+      "issues": [
+        "2026-21"
+      ],
+      "entries": [
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 26,
+          "page_count": 22
+        }
+      ]
+    },
+    "2年B組 勇者デストロイヤーず(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 63,
+      "max_pages": 63,
+      "average_pages": 63,
+      "median_pages": 63,
+      "page_counts": [
+        63
+      ],
+      "issues": [
+        "2026-21"
+      ],
+      "entries": [
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 2,
+          "start_internal_page": 27,
+          "end_internal_page": 89,
+          "page_count": 63
+        }
+      ]
+    },
+    "「銀魂」応募者全員サービスのおしらせ": {
+      "appearances": 1,
+      "min_pages": 1,
+      "max_pages": 1,
+      "average_pages": 1,
+      "median_pages": 1,
+      "page_counts": [
+        1
+      ],
+      "issues": [
+        "2026-21"
+      ],
+      "entries": [
+        {
+          "issue": "2026-21",
+          "magazine": "週刊少年ジャンプ 2026年21号",
+          "order": 3,
+          "start_internal_page": 90,
+          "end_internal_page": 90,
+          "page_count": 1
+        }
+      ]
+    },
+    "夏と蛍籠(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 14,
+      "max_pages": 14,
+      "average_pages": 14,
+      "median_pages": 14,
+      "page_counts": [
+        14
+      ],
+      "issues": [
+        "2026-20"
+      ],
+      "entries": [
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 18,
+          "page_count": 14
+        }
+      ]
+    },
+    "夏と蛍籠(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 54,
+      "max_pages": 54,
+      "average_pages": 54,
+      "median_pages": 54,
+      "page_counts": [
+        54
+      ],
+      "issues": [
+        "2026-20"
+      ],
+      "entries": [
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 3,
+          "start_internal_page": 23,
+          "end_internal_page": 76,
+          "page_count": 54
+        }
+      ]
+    },
+    "日常!!戦隊ファミリー": {
+      "appearances": 1,
+      "min_pages": 12,
+      "max_pages": 12,
+      "average_pages": 12,
+      "median_pages": 12,
+      "page_counts": [
+        12
+      ],
+      "issues": [
+        "2026-20"
+      ],
+      "entries": [
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 20,
+          "start_internal_page": 425,
+          "end_internal_page": 436,
+          "page_count": 12
+        }
+      ]
+    },
+    "JK勇者と隠居魔王": {
+      "appearances": 4,
+      "min_pages": 20,
+      "max_pages": 21,
+      "average_pages": 20.25,
+      "median_pages": 20.0,
+      "page_counts": [
+        21,
+        20,
+        20,
+        20
+      ],
+      "issues": [
+        "2026-20",
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-20",
+          "magazine": "週刊少年ジャンプ 2026年20号",
+          "order": 21,
+          "start_internal_page": 437,
+          "end_internal_page": 457,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 20,
+          "start_internal_page": 449,
+          "end_internal_page": 468,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 21,
+          "start_internal_page": 409,
+          "end_internal_page": 428,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 18,
+          "start_internal_page": 393,
+          "end_internal_page": 412,
+          "page_count": 20
+        }
+      ]
+    },
+    "特別付録 Jオールスター2026-2027スケジュールブック用イラスト": {
+      "appearances": 1,
+      "min_pages": 28,
+      "max_pages": 28,
+      "average_pages": 28,
+      "median_pages": 28,
+      "page_counts": [
+        28
+      ],
+      "issues": [
+        "2026-19"
+      ],
+      "entries": [
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 2,
+          "start_internal_page": 27,
+          "end_internal_page": 54,
+          "page_count": 28
+        }
+      ]
+    },
+    "牙城の華": {
+      "appearances": 1,
+      "min_pages": 16,
+      "max_pages": 16,
+      "average_pages": 16,
+      "median_pages": 16,
+      "page_counts": [
+        16
+      ],
+      "issues": [
+        "2026-19"
+      ],
+      "entries": [
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 18,
+          "start_internal_page": 413,
+          "end_internal_page": 428,
+          "page_count": 16
+        }
+      ]
+    },
+    "隣の小副川": {
+      "appearances": 3,
+      "min_pages": 20,
+      "max_pages": 21,
+      "average_pages": 20.33,
+      "median_pages": 20,
+      "page_counts": [
+        21,
+        20,
+        20
+      ],
+      "issues": [
+        "2026-19",
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-19",
+          "magazine": "週刊少年ジャンプ 2026年19号",
+          "order": 21,
+          "start_internal_page": 469,
+          "end_internal_page": 489,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 22,
+          "start_internal_page": 429,
+          "end_internal_page": 448,
+          "page_count": 20
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 19,
+          "start_internal_page": 413,
+          "end_internal_page": 432,
+          "page_count": 20
+        }
+      ]
+    },
+    "特別付録 Jオールスタースケジュールブック デココマシール用イラスト": {
+      "appearances": 1,
+      "min_pages": 1,
+      "max_pages": 1,
+      "average_pages": 1,
+      "median_pages": 1,
+      "page_counts": [
+        1
+      ],
+      "issues": [
+        "2026-18"
+      ],
+      "entries": [
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 1,
+          "start_internal_page": 4,
+          "end_internal_page": 4,
+          "page_count": 1
+        }
+      ]
+    },
+    "エルロック記録帖": {
+      "appearances": 1,
+      "min_pages": 50,
+      "max_pages": 50,
+      "average_pages": 50,
+      "median_pages": 50,
+      "page_counts": [
+        50
+      ],
+      "issues": [
+        "2026-18"
+      ],
+      "entries": [
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 10,
+          "start_internal_page": 173,
+          "end_internal_page": 222,
+          "page_count": 50
+        }
+      ]
+    },
+    "ゴンロン・エッグ": {
+      "appearances": 2,
+      "min_pages": 15,
+      "max_pages": 21,
+      "average_pages": 18,
+      "median_pages": 18.0,
+      "page_counts": [
+        21,
+        15
+      ],
+      "issues": [
+        "2026-18",
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-18",
+          "magazine": "週刊少年ジャンプ 2026年18号",
+          "order": 23,
+          "start_internal_page": 449,
+          "end_internal_page": 469,
+          "page_count": 21
+        },
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 20,
+          "start_internal_page": 433,
+          "end_internal_page": 447,
+          "page_count": 15
+        }
+      ]
+    },
+    "アオのハコ(巻頭カラー)": {
+      "appearances": 1,
+      "min_pages": 22,
+      "max_pages": 22,
+      "average_pages": 22,
+      "median_pages": 22,
+      "page_counts": [
+        22
+      ],
+      "issues": [
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 1,
+          "start_internal_page": 5,
+          "end_internal_page": 26,
+          "page_count": 22
+        }
+      ]
+    },
+    "アオのハコ(モノクロ冒頭ページ)": {
+      "appearances": 1,
+      "min_pages": 22,
+      "max_pages": 22,
+      "average_pages": 22,
+      "median_pages": 22,
+      "page_counts": [
+        22
+      ],
+      "issues": [
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 2,
+          "start_internal_page": 27,
+          "end_internal_page": 48,
+          "page_count": 22
+        }
+      ]
+    },
+    "メダリオン": {
+      "appearances": 1,
+      "min_pages": 48,
+      "max_pages": 48,
+      "average_pages": 48,
+      "median_pages": 48,
+      "page_counts": [
+        48
+      ],
+      "issues": [
+        "2026-17"
+      ],
+      "entries": [
+        {
+          "issue": "2026-17",
+          "magazine": "週刊少年ジャンプ 2026年17号",
+          "order": 10,
+          "start_internal_page": 189,
+          "end_internal_page": 236,
+          "page_count": 48
+        }
+      ]
+    }
+  }
+}
