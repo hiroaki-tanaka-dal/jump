@@ -10,7 +10,8 @@ from jump_pdf.pdf.history import update_work_history
 
 
 ONESHOT_CATEGORY = "読み切り"
-ONGOING_CATEGORY = "連載中"
+SERIAL_CATEGORY = "連載作品"
+LEGACY_ONGOING_CATEGORY = "連載中"
 
 
 @dataclass
@@ -23,7 +24,9 @@ class IssuePages:
 def classify_work_category(issue_count: int) -> str:
     """
     累計掲載話数が1話だけなら読み切り、
-    2話以上なら連載中として扱う。
+    2話以上なら連載作品として扱う。
+
+    連載中/連載終了の判定は現時点では行わない。
     """
     if issue_count <= 0:
         raise ValueError("issue_count は1以上である必要があります。")
@@ -31,7 +34,7 @@ def classify_work_category(issue_count: int) -> str:
     if issue_count == 1:
         return ONESHOT_CATEGORY
 
-    return ONGOING_CATEGORY
+    return SERIAL_CATEGORY
 
 
 def cleanup_previous_category(
@@ -44,13 +47,14 @@ def cleanup_previous_category(
 
     例:
         初回: 読み切り/作品名
-        2話目: 連載中/作品名
+        2話目: 連載作品/作品名
 
-    2話目以降は連載中側を正とし、読み切り側の古いPDFを残さない。
+    旧実装で作成された「連載中」フォルダも移行時に削除する。
     """
     categories = (
         ONESHOT_CATEGORY,
-        ONGOING_CATEGORY,
+        SERIAL_CATEGORY,
+        LEGACY_ONGOING_CATEGORY,
     )
 
     for category in categories:
@@ -81,12 +85,12 @@ def build_pdf_filename(
     """
     PDFファイル名を生成する。
 
-    読み切りは従来どおり話数範囲のみ。
+    読み切りは話数範囲のみ。
     連載作品は、そのPDFに含まれる最後の掲載号を末尾に付ける。
 
     例:
         読み切り: 作品名_001-001.pdf
-        連載:     作品名_001-010_2026-37_38.pdf
+        連載作品: 作品名_001-010_2026-37_38.pdf
     """
     base = (
         f"{work_title}_"
