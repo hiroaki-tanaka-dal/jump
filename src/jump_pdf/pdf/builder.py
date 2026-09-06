@@ -1,3 +1,4 @@
+import re
 import shutil
 from dataclasses import dataclass
 from pathlib import Path
@@ -37,6 +38,25 @@ def classify_work_category(
         return SERIAL_CATEGORY
 
     return ONESHOT_CATEGORY
+
+
+def issue_sort_key(path: Path) -> tuple[int, int, int, str]:
+    """号フォルダを年・号数の数値順に並べる。
+
+    例:
+      2025-9 < 2025-10 < 2025-36_37 < 2026-1
+
+    合併号は先頭の号数を主キー、末尾の号数を副キーにする。
+    想定外の名前は末尾へ回し、名前順で安定して並べる。
+    """
+    match = re.fullmatch(r"(\d{4})-(\d+)(?:_(\d+))?", path.name)
+    if match is None:
+        return (9999, 9999, 9999, path.name)
+
+    year = int(match.group(1))
+    first_issue = int(match.group(2))
+    last_issue = int(match.group(3) or first_issue)
+    return (year, first_issue, last_issue, path.name)
 
 
 def cleanup_previous_category(
@@ -115,14 +135,13 @@ def build_pdf_filename(
     return f"{base}_{last_issue}.pdf"
 
 
-def should_build_pdf(output_file: Path) -> bool:
-    """
-    期待するPDFが既に存在する場合は再生成しない。
-
-    未完成の末尾PDFは、新しい号が増えるとファイル名自体が変わるため、
-    新しい期待ファイルが存在せず再生成対象になる。
-    """
-    return not output_file.exists()
+def should_build_pdf(
+    output_file: Path,
+    *,
+    force: bool = False,
+) -> bool:
+    """期待PDFが無い場合、またはforce指定時に再生成する。"""
+    return force or not output_file.exists()
 
 
 def prepend_blank_cover(
@@ -326,6 +345,8 @@ def build_work_pdfs(
     work_dir: Path,
     output_root: Path,
     issues_per_pdf: int = 10,
+    *,
+    force: bool = False,
 ) -> list[Path]:
     issue_dirs = [
         path
@@ -337,7 +358,7 @@ def build_work_pdfs(
     if not issue_dirs:
         return []
 
-    issue_dirs.sort(key=lambda path: path.name)
+    issue_dirs.sort(key=issue_sort_key)
 
     work_title = work_dir.name
     serial_signal = first_issue_has_serial_signal(
@@ -396,7 +417,7 @@ def build_work_pdfs(
         )
         expected_files.append(output_file)
 
-        if not should_build_pdf(output_file):
+        if not should_build_pdf(output_file, force=force):
             print(f"PDFスキップ: {output_file}")
             continue
 
