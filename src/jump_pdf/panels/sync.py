@@ -5,6 +5,12 @@ from enum import Enum
 from pathlib import Path
 
 
+PANEL_SYNC_CATEGORIES = (
+    "連載中",
+    "連載終了",
+)
+
+
 class SyncAction(str, Enum):
     ADD = "add"
     REPLACE = "replace"
@@ -44,6 +50,26 @@ def collect_pdfs(root: Path) -> dict[Path, Path]:
     }
 
 
+def collect_source_pdfs(source_root: Path) -> dict[Path, Path]:
+    """
+    Panelsへ連携するカテゴリだけを収集する。
+
+    読み切りはローカル保存のみとし、Panelsへは同期しない。
+    現在は「連載中」を対象とし、将来「連載終了」が作られた場合も
+    そのまま同期対象になる。
+    """
+
+    result: dict[Path, Path] = {}
+
+    for category in PANEL_SYNC_CATEGORIES:
+        category_root = source_root / category
+
+        for relative_path, path in collect_pdfs(category_root).items():
+            result[Path(category) / relative_path] = path
+
+    return result
+
+
 def build_sync_plan(
     source_root: Path,
     panels_root: Path,
@@ -52,6 +78,9 @@ def build_sync_plan(
 ) -> list[SyncItem]:
     """
     data/pdf と Panels 側のPDFを比較して同期計画を返す。
+
+    Panelsへ同期するのは「連載中」「連載終了」のみ。
+    「読み切り」は同期対象外。
 
     デフォルトではPanels側にしか存在しないファイルは削除しない。
     delete_orphans=True の場合だけ削除対象にする。
@@ -65,7 +94,7 @@ def build_sync_plan(
             f"PDF出力フォルダがありません: {source_root}"
         )
 
-    source_files = collect_pdfs(source_root)
+    source_files = collect_source_pdfs(source_root)
     panels_files = collect_pdfs(panels_root)
 
     plan: list[SyncItem] = []
