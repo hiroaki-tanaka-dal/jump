@@ -6,11 +6,61 @@ from pypdf import PdfReader, PdfWriter
 from pypdf.generic import DictionaryObject, NameObject
 
 
+ONESHOT_CATEGORY = "読み切り"
+ONGOING_CATEGORY = "連載中"
+
+
 @dataclass
 class IssuePages:
     issue_dir: Path
     color: list[Path]
     main: list[Path]
+
+
+def classify_work_category(issue_count: int) -> str:
+    """
+    現時点の暫定ルール。
+
+    掲載号が1つだけの作品は読み切り、
+    2つ以上ある作品は連載中として扱う。
+    """
+    if issue_count <= 0:
+        raise ValueError("issue_count は1以上である必要があります。")
+
+    if issue_count == 1:
+        return ONESHOT_CATEGORY
+
+    return ONGOING_CATEGORY
+
+
+def build_pdf_filename(
+    work_title: str,
+    first_number: int,
+    last_number: int,
+    last_issue: str,
+    *,
+    is_oneshot: bool,
+) -> str:
+    """
+    PDFファイル名を生成する。
+
+    読み切りは従来どおり話数範囲のみ。
+    連載作品は、そのPDFに含まれる最後の掲載号を末尾に付ける。
+
+    例:
+        読み切り: 作品名_001-001.pdf
+        連載:     作品名_001-010_2026-37_38.pdf
+    """
+    base = (
+        f"{work_title}_"
+        f"{first_number:03d}-"
+        f"{last_number:03d}"
+    )
+
+    if is_oneshot:
+        return f"{base}.pdf"
+
+    return f"{base}_{last_issue}.pdf"
 
 
 def prepend_blank_cover(
@@ -282,9 +332,16 @@ def build_work_pdfs(
     )
 
     work_title = work_dir.name
+    category = classify_work_category(
+        len(issue_dirs)
+    )
+    is_oneshot = (
+        category == ONESHOT_CATEGORY
+    )
 
     output_dir = (
         output_root
+        / category
         / work_title
     )
 
@@ -332,13 +389,16 @@ def build_work_pdfs(
         last_number = (
             start + len(group)
         )
+        last_issue = group[-1].name
 
         output_file = (
             output_dir
-            / (
-                f"{work_title}_"
-                f"{first_number:03d}-"
-                f"{last_number:03d}.pdf"
+            / build_pdf_filename(
+                work_title=work_title,
+                first_number=first_number,
+                last_number=last_number,
+                last_issue=last_issue,
+                is_oneshot=is_oneshot,
             )
         )
 
