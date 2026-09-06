@@ -10,6 +10,7 @@ from jump_pdf.pdf.builder import (
     cleanup_previous_category,
     cleanup_stale_generated_pdfs,
     first_issue_has_serial_signal,
+    issue_sort_key,
     should_build_pdf,
 )
 
@@ -34,6 +35,38 @@ class PdfBuilderNamingTest(unittest.TestCase):
         self.assertEqual(
             classify_work_category(2),
             SERIAL_CATEGORY,
+        )
+
+    def test_issue_sort_key_uses_numeric_issue_order(self):
+        paths = [
+            Path("2026-10"),
+            Path("2025-36_37"),
+            Path("2026-2"),
+            Path("2025-9"),
+            Path("2025-10"),
+            Path("2026-1"),
+        ]
+
+        ordered = sorted(paths, key=issue_sort_key)
+
+        self.assertEqual(
+            [path.name for path in ordered],
+            [
+                "2025-9",
+                "2025-10",
+                "2025-36_37",
+                "2026-1",
+                "2026-2",
+                "2026-10",
+            ],
+        )
+
+    def test_unknown_issue_name_sorts_after_normal_issue(self):
+        paths = [Path("unknown"), Path("2026-40")]
+        ordered = sorted(paths, key=issue_sort_key)
+        self.assertEqual(
+            [path.name for path in ordered],
+            ["2026-40", "unknown"],
         )
 
     def test_first_issue_color_and_main_is_serial_signal(self):
@@ -91,6 +124,15 @@ class PdfBuilderNamingTest(unittest.TestCase):
             output_file.write_bytes(b"pdf")
 
             self.assertFalse(should_build_pdf(output_file))
+
+    def test_force_rebuilds_existing_pdf(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_file = Path(temp_dir) / "existing.pdf"
+            output_file.write_bytes(b"pdf")
+
+            self.assertTrue(
+                should_build_pdf(output_file, force=True)
+            )
 
     def test_missing_pdf_is_built(self):
         with tempfile.TemporaryDirectory() as temp_dir:
