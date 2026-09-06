@@ -8,6 +8,7 @@ from jump_pdf.pdf.builder import (
     build_pdf_filename,
     classify_work_category,
     cleanup_previous_category,
+    cleanup_stale_generated_pdfs,
     first_issue_has_serial_signal,
 )
 
@@ -120,6 +121,29 @@ class PdfBuilderNamingTest(unittest.TestCase):
             )
 
             self.assertFalse(old_dir.exists())
+
+    def test_cleanup_stale_generated_pdf_keeps_expected_and_unrelated_files(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_dir = Path(temp_dir) / "連載作品" / "テスト作品"
+            output_dir.mkdir(parents=True)
+
+            expected = output_dir / "テスト作品_011-012_2026-39.pdf"
+            stale = output_dir / "テスト作品_011-011_2026-37_38.pdf"
+            unrelated = output_dir / "手動保存.pdf"
+            expected.write_bytes(b"new")
+            stale.write_bytes(b"old")
+            unrelated.write_bytes(b"manual")
+
+            removed = cleanup_stale_generated_pdfs(
+                output_dir=output_dir,
+                work_title="テスト作品",
+                expected_files=[expected],
+            )
+
+            self.assertEqual(removed, [stale])
+            self.assertTrue(expected.exists())
+            self.assertFalse(stale.exists())
+            self.assertTrue(unrelated.exists())
 
 
 if __name__ == "__main__":
