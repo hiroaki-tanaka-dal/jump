@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from pathlib import Path
-from tempfile import NamedTemporaryFile
 
 from PIL import Image
 from pypdf import PdfReader, PdfWriter
@@ -12,6 +11,7 @@ class IssuePages:
     issue_dir: Path
     color: list[Path]
     main: list[Path]
+
 
 def prepend_blank_cover(
     images: list[Image.Image],
@@ -39,6 +39,7 @@ def prepend_blank_cover(
         0,
         blank,
     )
+
 
 def collect_issue_pages(
     issue_dir: Path,
@@ -111,24 +112,16 @@ def append_issue_to_pdf_images(
     次の話を結合しても見開き位置が変わらないようにする。
     """
 
-    # この話を追加する前のページ数
     block_start = len(result)
 
-    # --------------------------------------------------
-    # カラー回
-    # --------------------------------------------------
     if issue.color:
         print("  layout: COLOR")
 
-        # カラーは先頭ページを独立させない。
-        # そのまま見開きとして開始する。
         for path in issue.color:
             result.append(
                 open_rgb(path)
             )
 
-        # モノクロ本編が存在する場合、
-        # MAIN 001を独立させるための空白を入れる。
         if issue.main:
             result.append(
                 create_blank_image(
@@ -141,13 +134,9 @@ def append_issue_to_pdf_images(
                     open_rgb(path)
                 )
 
-    # --------------------------------------------------
-    # 通常回
-    # --------------------------------------------------
     elif issue.main:
         print("  layout: NORMAL")
 
-        # 各話の先頭に必ず空白ページを入れる。
         result.append(
             create_blank_image(
                 issue.main[0]
@@ -161,16 +150,6 @@ def append_issue_to_pdf_images(
 
     else:
         return
-
-    # --------------------------------------------------
-    # 話末尾の調整
-    # --------------------------------------------------
-    #
-    # この話だけのページ数を取得。
-    #
-    # 各話のブロックを偶数ページにしておけば、
-    # 次の話を結合しても開始位置の偶奇が変わらない。
-    # --------------------------------------------------
 
     block_page_count = (
         len(result) - block_start
@@ -201,6 +180,7 @@ def append_issue_to_pdf_images(
     print(
         f"  block pages: {block_page_count}"
     )
+
 
 def set_right_to_left(
     pdf_file: Path,
@@ -362,8 +342,6 @@ def build_work_pdfs(
             )
         )
 
-        # PanelsではPDFの1ページ目が表紙として単独表示されるため、
-        # 全話のレイアウト完成後に空白表紙を1枚だけ追加する。
         prepend_blank_cover(
             pdf_images
         )
@@ -382,4 +360,6 @@ def build_work_pdfs(
             pdf_images,
             output_file,
         )
+        created.append(output_file)
+
     return created
