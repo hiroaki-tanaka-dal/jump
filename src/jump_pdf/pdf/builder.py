@@ -61,6 +61,40 @@ def cleanup_previous_category(
             shutil.rmtree(old_dir)
 
 
+def cleanup_stale_generated_pdfs(
+    output_dir: Path,
+    work_title: str,
+    expected_files: list[Path],
+) -> list[Path]:
+    """
+    現在の生成結果に含まれない、このアプリ生成の旧PDFだけを削除する。
+
+    作品フォルダ内の任意ファイルを消さないよう、
+    `<作品名>_*.pdf` に一致するものだけを対象にする。
+    """
+    if not output_dir.exists():
+        return []
+
+    expected = {
+        path.resolve()
+        for path in expected_files
+    }
+    removed: list[Path] = []
+
+    for path in output_dir.glob(f"{work_title}_*.pdf"):
+        if not path.is_file():
+            continue
+
+        if path.resolve() in expected:
+            continue
+
+        print(f"旧PDF削除: {path}")
+        path.unlink()
+        removed.append(path)
+
+    return removed
+
+
 def build_pdf_filename(
     work_title: str,
     first_number: int,
@@ -380,5 +414,11 @@ def build_work_pdfs(
             output_file,
         )
         created.append(output_file)
+
+    cleanup_stale_generated_pdfs(
+        output_dir=output_dir,
+        work_title=work_title,
+        expected_files=created,
+    )
 
     return created
