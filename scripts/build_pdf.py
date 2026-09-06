@@ -53,6 +53,11 @@ def parse_args() -> argparse.Namespace:
         default=ISSUES_PER_PDF,
         help=f"1PDFあたりの話数。既定値: {ISSUES_PER_PDF}",
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="既存PDFがあっても再生成します。",
+    )
     return parser.parse_args()
 
 
@@ -85,6 +90,7 @@ def main() -> None:
     print(f"作品ルート: {args.works_root}")
     print(f"PDF出力先: {args.output_root}")
     print(f"1PDFあたり: {args.issues_per_pdf} 話")
+    print(f"強制再生成: {args.force}")
     print("=" * 80)
 
     created_files: list[Path] = []
@@ -103,6 +109,7 @@ def main() -> None:
                 work_dir=work_dir,
                 output_root=args.output_root,
                 issues_per_pdf=args.issues_per_pdf,
+                force=args.force,
             )
             created_files.extend(files)
         except Exception as exc:
@@ -116,12 +123,12 @@ def main() -> None:
     print("PDF作成結果")
     print("=" * 80)
     print(f"対象作品数: {len(work_dirs)}")
-    print(f"作成PDF数: {len(created_files)}")
+    print(f"対象PDF数: {len(created_files)}")
     print(f"失敗作品数: {len(failed)}")
 
     if created_files:
         print()
-        print("作成ファイル:")
+        print("対象ファイル:")
         for file in created_files:
             print(f"  {file}")
 
