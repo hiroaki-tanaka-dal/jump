@@ -10,6 +10,7 @@ from jump_pdf.pdf.builder import (
     cleanup_previous_category,
     cleanup_stale_generated_pdfs,
     first_issue_has_serial_signal,
+    should_build_pdf,
 )
 
 
@@ -83,6 +84,19 @@ class PdfBuilderNamingTest(unittest.TestCase):
             ),
             "テスト作品_001-010_2026-37_38.pdf",
         )
+
+    def test_existing_pdf_is_skipped(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_file = Path(temp_dir) / "existing.pdf"
+            output_file.write_bytes(b"pdf")
+
+            self.assertFalse(should_build_pdf(output_file))
+
+    def test_missing_pdf_is_built(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_file = Path(temp_dir) / "missing.pdf"
+
+            self.assertTrue(should_build_pdf(output_file))
 
     def test_cleanup_removes_old_oneshot_folder_after_promotion(self):
         with tempfile.TemporaryDirectory() as temp_dir:
