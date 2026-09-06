@@ -1,10 +1,13 @@
+import tempfile
 import unittest
+from pathlib import Path
 
 from jump_pdf.pdf.builder import (
     ONESHOT_CATEGORY,
     ONGOING_CATEGORY,
     build_pdf_filename,
     classify_work_category,
+    cleanup_previous_category,
 )
 
 
@@ -44,6 +47,25 @@ class PdfBuilderNamingTest(unittest.TestCase):
             ),
             "テスト作品_001-010_2026-37_38.pdf",
         )
+
+    def test_cleanup_removes_old_oneshot_folder_after_promotion(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_root = Path(temp_dir)
+            old_dir = (
+                output_root
+                / ONESHOT_CATEGORY
+                / "テスト作品"
+            )
+            old_dir.mkdir(parents=True)
+            (old_dir / "テスト作品_001-001.pdf").write_bytes(b"pdf")
+
+            cleanup_previous_category(
+                output_root=output_root,
+                work_title="テスト作品",
+                current_category=ONGOING_CATEGORY,
+            )
+
+            self.assertFalse(old_dir.exists())
 
 
 if __name__ == "__main__":
