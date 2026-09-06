@@ -6,8 +6,7 @@ from pathlib import Path
 
 
 PANEL_SYNC_CATEGORIES = (
-    "連載中",
-    "連載終了",
+    "連載作品",
 )
 
 
@@ -55,8 +54,8 @@ def collect_source_pdfs(source_root: Path) -> dict[Path, Path]:
     Panelsへ連携するカテゴリだけを収集する。
 
     読み切りはローカル保存のみとし、Panelsへは同期しない。
-    現在は「連載中」を対象とし、将来「連載終了」が作られた場合も
-    そのまま同期対象になる。
+    現時点では連載中/連載終了を区別せず、
+    「連載作品」だけをPanels同期対象とする。
     """
 
     result: dict[Path, Path] = {}
@@ -79,7 +78,7 @@ def build_sync_plan(
     """
     data/pdf と Panels 側のPDFを比較して同期計画を返す。
 
-    Panelsへ同期するのは「連載中」「連載終了」のみ。
+    Panelsへ同期するのは「連載作品」のみ。
     「読み切り」は同期対象外。
 
     デフォルトではPanels側にしか存在しないファイルは削除しない。
