@@ -4,7 +4,7 @@ from pathlib import Path
 
 from jump_pdf.pdf.builder import (
     ONESHOT_CATEGORY,
-    ONGOING_CATEGORY,
+    SERIAL_CATEGORY,
     build_pdf_filename,
     classify_work_category,
     cleanup_previous_category,
@@ -18,10 +18,10 @@ class PdfBuilderNamingTest(unittest.TestCase):
             ONESHOT_CATEGORY,
         )
 
-    def test_multiple_issues_are_ongoing(self):
+    def test_multiple_issues_are_serial(self):
         self.assertEqual(
             classify_work_category(2),
-            ONGOING_CATEGORY,
+            SERIAL_CATEGORY,
         )
 
     def test_oneshot_filename(self):
@@ -62,7 +62,26 @@ class PdfBuilderNamingTest(unittest.TestCase):
             cleanup_previous_category(
                 output_root=output_root,
                 work_title="テスト作品",
-                current_category=ONGOING_CATEGORY,
+                current_category=SERIAL_CATEGORY,
+            )
+
+            self.assertFalse(old_dir.exists())
+
+    def test_cleanup_removes_legacy_ongoing_folder(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output_root = Path(temp_dir)
+            old_dir = (
+                output_root
+                / "連載中"
+                / "テスト作品"
+            )
+            old_dir.mkdir(parents=True)
+            (old_dir / "old.pdf").write_bytes(b"pdf")
+
+            cleanup_previous_category(
+                output_root=output_root,
+                work_title="テスト作品",
+                current_category=SERIAL_CATEGORY,
             )
 
             self.assertFalse(old_dir.exists())
