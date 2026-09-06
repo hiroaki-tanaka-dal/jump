@@ -115,6 +115,16 @@ def build_pdf_filename(
     return f"{base}_{last_issue}.pdf"
 
 
+def should_build_pdf(output_file: Path) -> bool:
+    """
+    期待するPDFが既に存在する場合は再生成しない。
+
+    未完成の末尾PDFは、新しい号が増えるとファイル名自体が変わるため、
+    新しい期待ファイルが存在せず再生成対象になる。
+    """
+    return not output_file.exists()
+
+
 def prepend_blank_cover(
     images: list[Image.Image],
 ) -> None:
@@ -360,7 +370,7 @@ def build_work_pdfs(
     )
 
     output_dir = output_root / category / work_title
-    created: list[Path] = []
+    expected_files: list[Path] = []
 
     for start in range(
         0,
@@ -370,6 +380,26 @@ def build_work_pdfs(
         group = issue_dirs[
             start:start + issues_per_pdf
         ]
+        first_number = start + 1
+        last_number = start + len(group)
+        last_issue = group[-1].name
+
+        output_file = (
+            output_dir
+            / build_pdf_filename(
+                work_title=work_title,
+                first_number=first_number,
+                last_number=last_number,
+                last_issue=last_issue,
+                is_oneshot=is_oneshot,
+            )
+        )
+        expected_files.append(output_file)
+
+        if not should_build_pdf(output_file):
+            print(f"PDFスキップ: {output_file}")
+            continue
+
         pdf_images: list[Image.Image] = []
 
         for issue_dir in group:
@@ -388,21 +418,6 @@ def build_work_pdfs(
         if not pdf_images:
             continue
 
-        first_number = start + 1
-        last_number = start + len(group)
-        last_issue = group[-1].name
-
-        output_file = (
-            output_dir
-            / build_pdf_filename(
-                work_title=work_title,
-                first_number=first_number,
-                last_number=last_number,
-                last_issue=last_issue,
-                is_oneshot=is_oneshot,
-            )
-        )
-
         prepend_blank_cover(pdf_images)
 
         print()
@@ -413,12 +428,11 @@ def build_work_pdfs(
             pdf_images,
             output_file,
         )
-        created.append(output_file)
 
     cleanup_stale_generated_pdfs(
         output_dir=output_dir,
         work_title=work_title,
-        expected_files=created,
+        expected_files=expected_files,
     )
 
-    return created
+    return expected_files
