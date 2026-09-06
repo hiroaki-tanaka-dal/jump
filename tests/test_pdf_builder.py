@@ -8,6 +8,7 @@ from jump_pdf.pdf.builder import (
     build_pdf_filename,
     classify_work_category,
     cleanup_previous_category,
+    first_issue_has_serial_signal,
 )
 
 
@@ -18,11 +19,45 @@ class PdfBuilderNamingTest(unittest.TestCase):
             ONESHOT_CATEGORY,
         )
 
+    def test_single_issue_can_be_confirmed_serial(self):
+        self.assertEqual(
+            classify_work_category(
+                1,
+                serial_confirmed=True,
+            ),
+            SERIAL_CATEGORY,
+        )
+
     def test_multiple_issues_are_serial(self):
         self.assertEqual(
             classify_work_category(2),
             SERIAL_CATEGORY,
         )
+
+    def test_first_issue_color_and_main_is_serial_signal(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            issue_dir = Path(temp_dir) / "2026-39"
+            color_dir = issue_dir / "color"
+            main_dir = issue_dir / "main"
+            color_dir.mkdir(parents=True)
+            main_dir.mkdir(parents=True)
+            (color_dir / "001.png").write_bytes(b"png")
+            (main_dir / "001.png").write_bytes(b"png")
+
+            self.assertTrue(
+                first_issue_has_serial_signal([issue_dir])
+            )
+
+    def test_first_issue_without_color_is_not_serial_signal(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            issue_dir = Path(temp_dir) / "2026-39"
+            main_dir = issue_dir / "main"
+            main_dir.mkdir(parents=True)
+            (main_dir / "001.png").write_bytes(b"png")
+
+            self.assertFalse(
+                first_issue_has_serial_signal([issue_dir])
+            )
 
     def test_oneshot_filename(self):
         self.assertEqual(
