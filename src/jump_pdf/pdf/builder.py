@@ -21,20 +21,22 @@ class IssuePages:
     main: list[Path]
 
 
-def classify_work_category(issue_count: int) -> str:
+def classify_work_category(
+    issue_count: int,
+    *,
+    serial_confirmed: bool = False,
+) -> str:
     """
-    累計掲載話数が1話だけなら読み切り、
-    2話以上なら連載作品として扱う。
-
-    連載中/連載終了の判定は現時点では行わない。
+    累計2話以上、または履歴上連載確定済みなら連載作品。
+    それ以外の累計1話は読み切りとして扱う。
     """
     if issue_count <= 0:
         raise ValueError("issue_count は1以上である必要があります。")
 
-    if issue_count == 1:
-        return ONESHOT_CATEGORY
+    if serial_confirmed or issue_count >= 2:
+        return SERIAL_CATEGORY
 
-    return SERIAL_CATEGORY
+    return ONESHOT_CATEGORY
 
 
 def cleanup_previous_category(
@@ -42,15 +44,6 @@ def cleanup_previous_category(
     work_title: str,
     current_category: str,
 ) -> None:
-    """
-    作品の分類が変わった場合、旧カテゴリ側のPDFフォルダを削除する。
-
-    例:
-        初回: 読み切り/作品名
-        2話目: 連載作品/作品名
-
-    旧実装で作成された「連載中」フォルダも移行時に削除する。
-    """
     categories = (
         ONESHOT_CATEGORY,
         SERIAL_CATEGORY,
@@ -61,16 +54,10 @@ def cleanup_previous_category(
         if category == current_category:
             continue
 
-        old_dir = (
-            output_root
-            / category
-            / work_title
-        )
+        old_dir = output_root / category / work_title
 
         if old_dir.exists():
-            print(
-                f"旧カテゴリ削除: {old_dir}"
-            )
+            print(f"旧カテゴリ削除: {old_dir}")
             shutil.rmtree(old_dir)
 
 
@@ -82,16 +69,6 @@ def build_pdf_filename(
     *,
     is_oneshot: bool,
 ) -> str:
-    """
-    PDFファイル名を生成する。
-
-    読み切りは話数範囲のみ。
-    連載作品は、そのPDFに含まれる最後の掲載号を末尾に付ける。
-
-    例:
-        読み切り: 作品名_001-001.pdf
-        連載作品: 作品名_001-010_2026-37_38.pdf
-    """
     base = (
         f"{work_title}_"
         f"{first_number:03d}-"
@@ -107,29 +84,16 @@ def build_pdf_filename(
 def prepend_blank_cover(
     images: list[Image.Image],
 ) -> None:
-    """
-    Panels対策として、
-    PDF全体の先頭に空白ページを1枚追加する。
-
-    Panelsが1ページ目を表紙として単独扱いしても、
-    2ページ目以降の見開き配置を維持するため。
-    """
-
     if not images:
         return
 
     width, height = images[0].size
-
     blank = Image.new(
         "RGB",
         (width, height),
         "white",
     )
-
-    images.insert(
-        0,
-        blank,
-    )
+    images.insert(0, blank)
 
 
 def collect_issue_pages(
@@ -143,7 +107,6 @@ def collect_issue_pages(
         if color_dir.exists()
         else []
     )
-
     main = (
         sorted(main_dir.glob("*.png"))
         if main_dir.exists()
@@ -155,6 +118,22 @@ def collect_issue_pages(
         color=color,
         main=main,
     )
+
+
+def first_issue_has_serial_signal(
+    issue_dirs: list[Path],
+) -> bool:
+    """
+    初回1話しかない作品について、巻頭カラー相当の color と
+    本編の main が両方存在する場合を新連載シグナルとして扱う。
+
+    2話以上ある作品は話数だけで連載確定するため、この判定は不要。
+    """
+    if len(issue_dirs) != 1:
+        return False
+
+    issue = collect_issue_pages(issue_dirs[0])
+    return bool(issue.color and issue.main)
 
 
 def create_blank_image(
@@ -187,106 +166,64 @@ def append_issue_to_pdf_images(
     result: list[Image.Image],
     issue: IssuePages,
 ) -> None:
-    """
-    1話を独立したレイアウトブロックとして追加する。
-
-    NORMAL:
-        blank
-        main...
-
-    COLOR:
-        color...
-        blank
-        main...
-
-    最後にページ数を偶数へ揃え、
-    次の話を結合しても見開き位置が変わらないようにする。
-    """
-
     block_start = len(result)
 
     if issue.color:
         print("  layout: COLOR")
 
         for path in issue.color:
-            result.append(
-                open_rgb(path)
-            )
+            result.append(open_rgb(path))
 
         if issue.main:
             result.append(
-                create_blank_image(
-                    issue.main[0]
-                )
+                create_blank_image(issue.main[0])
             )
 
             for path in issue.main:
-                result.append(
-                    open_rgb(path)
-                )
+                result.append(open_rgb(path))
 
     elif issue.main:
         print("  layout: NORMAL")
-
         result.append(
-            create_blank_image(
-                issue.main[0]
-            )
+            create_blank_image(issue.main[0])
         )
 
         for path in issue.main:
-            result.append(
-                open_rgb(path)
-            )
+            result.append(open_rgb(path))
 
     else:
         return
 
-    block_page_count = (
-        len(result) - block_start
-    )
+    block_page_count = len(result) - block_start
 
     if block_page_count % 2 != 0:
         reference = None
 
         if issue.main:
             reference = issue.main[-1]
-
         elif issue.color:
             reference = issue.color[-1]
 
         if reference is not None:
             result.append(
-                create_blank_image(
-                    reference
-                )
+                create_blank_image(reference)
             )
-
             block_page_count += 1
+            print("  trailing blank added")
 
-            print(
-                "  trailing blank added"
-            )
-
-    print(
-        f"  block pages: {block_page_count}"
-    )
+    print(f"  block pages: {block_page_count}")
 
 
 def set_right_to_left(
     pdf_file: Path,
 ) -> None:
-    reader = PdfReader(
-        str(pdf_file)
-    )
-
+    reader = PdfReader(str(pdf_file))
     writer = PdfWriter()
 
     for page in reader.pages:
         writer.add_page(page)
 
     viewer_preferences = DictionaryObject()
-
     viewer_preferences.update(
         {
             NameObject("/Direction"):
@@ -303,20 +240,12 @@ def set_right_to_left(
         }
     )
 
-    temp_file = (
-        pdf_file.with_suffix(
-            ".tmp.pdf"
-        )
-    )
+    temp_file = pdf_file.with_suffix(".tmp.pdf")
 
-    with temp_file.open(
-        "wb"
-    ) as file:
+    with temp_file.open("wb") as file:
         writer.write(file)
 
-    temp_file.replace(
-        pdf_file
-    )
+    temp_file.replace(pdf_file)
 
 
 def build_pdf(
@@ -324,9 +253,7 @@ def build_pdf(
     output_file: Path,
 ) -> None:
     if not images:
-        raise ValueError(
-            "PDF化する画像がありません。"
-        )
+        raise ValueError("PDF化する画像がありません。")
 
     output_file.parent.mkdir(
         parents=True,
@@ -348,9 +275,7 @@ def build_pdf(
         for image in images:
             image.close()
 
-    set_right_to_left(
-        output_file
-    )
+    set_right_to_left(output_file)
 
 
 def build_work_pdfs(
@@ -368,11 +293,12 @@ def build_work_pdfs(
     if not issue_dirs:
         return []
 
-    issue_dirs.sort(
-        key=lambda path: path.name
-    )
+    issue_dirs.sort(key=lambda path: path.name)
 
     work_title = work_dir.name
+    serial_signal = first_issue_has_serial_signal(
+        issue_dirs
+    )
     history = update_work_history(
         output_root=output_root,
         work_title=work_title,
@@ -380,16 +306,17 @@ def build_work_pdfs(
             path.name
             for path in issue_dirs
         ],
+        serial_signal=serial_signal,
     )
     category = classify_work_category(
-        history.cumulative_issue_count
+        history.cumulative_issue_count,
+        serial_confirmed=history.serial_confirmed,
     )
-    is_oneshot = (
-        category == ONESHOT_CATEGORY
-    )
+    is_oneshot = category == ONESHOT_CATEGORY
 
     print(
-        f"{work_title}: 累計 {history.cumulative_issue_count} 話 / {category}"
+        f"{work_title}: 累計 {history.cumulative_issue_count} 話 / "
+        f"{category} / reason={history.serial_reason or 'single_issue'}"
     )
 
     cleanup_previous_category(
@@ -398,12 +325,7 @@ def build_work_pdfs(
         current_category=category,
     )
 
-    output_dir = (
-        output_root
-        / category
-        / work_title
-    )
-
+    output_dir = output_root / category / work_title
     created: list[Path] = []
 
     for start in range(
@@ -414,27 +336,15 @@ def build_work_pdfs(
         group = issue_dirs[
             start:start + issues_per_pdf
         ]
-
         pdf_images: list[Image.Image] = []
 
         for issue_dir in group:
-            issue = collect_issue_pages(
-                issue_dir
-            )
+            issue = collect_issue_pages(issue_dir)
 
             print()
-            print(
-                f"{work_title} / "
-                f"{issue_dir.name}"
-            )
-            print(
-                f"  color: "
-                f"{len(issue.color)}"
-            )
-            print(
-                f"  main: "
-                f"{len(issue.main)}"
-            )
+            print(f"{work_title} / {issue_dir.name}")
+            print(f"  color: {len(issue.color)}")
+            print(f"  main: {len(issue.main)}")
 
             append_issue_to_pdf_images(
                 pdf_images,
@@ -445,9 +355,7 @@ def build_work_pdfs(
             continue
 
         first_number = start + 1
-        last_number = (
-            start + len(group)
-        )
+        last_number = start + len(group)
         last_issue = group[-1].name
 
         output_file = (
@@ -461,19 +369,11 @@ def build_work_pdfs(
             )
         )
 
-        prepend_blank_cover(
-            pdf_images
-        )
+        prepend_blank_cover(pdf_images)
 
         print()
-        print(
-            f"PDF作成: "
-            f"{output_file}"
-        )
-        print(
-            f"PDFページ数: "
-            f"{len(pdf_images)}"
-        )
+        print(f"PDF作成: {output_file}")
+        print(f"PDFページ数: {len(pdf_images)}")
 
         build_pdf(
             pdf_images,
