@@ -1,3 +1,4 @@
+import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -31,6 +32,42 @@ def classify_work_category(issue_count: int) -> str:
         return ONESHOT_CATEGORY
 
     return ONGOING_CATEGORY
+
+
+def cleanup_previous_category(
+    output_root: Path,
+    work_title: str,
+    current_category: str,
+) -> None:
+    """
+    作品の分類が変わった場合、旧カテゴリ側のPDFフォルダを削除する。
+
+    例:
+        初回: 読み切り/作品名
+        2話目: 連載中/作品名
+
+    2話目以降は連載中側を正とし、読み切り側の古いPDFを残さない。
+    """
+    categories = (
+        ONESHOT_CATEGORY,
+        ONGOING_CATEGORY,
+    )
+
+    for category in categories:
+        if category == current_category:
+            continue
+
+        old_dir = (
+            output_root
+            / category
+            / work_title
+        )
+
+        if old_dir.exists():
+            print(
+                f"旧カテゴリ削除: {old_dir}"
+            )
+            shutil.rmtree(old_dir)
 
 
 def build_pdf_filename(
@@ -349,6 +386,12 @@ def build_work_pdfs(
 
     print(
         f"{work_title}: 累計 {history.cumulative_issue_count} 話 / {category}"
+    )
+
+    cleanup_previous_category(
+        output_root=output_root,
+        work_title=work_title,
+        current_category=category,
     )
 
     output_dir = (
