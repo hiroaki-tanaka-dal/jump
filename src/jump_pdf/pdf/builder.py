@@ -5,6 +5,8 @@ from PIL import Image
 from pypdf import PdfReader, PdfWriter
 from pypdf.generic import DictionaryObject, NameObject
 
+from jump_pdf.pdf.history import update_work_history
+
 
 ONESHOT_CATEGORY = "読み切り"
 ONGOING_CATEGORY = "連載中"
@@ -19,10 +21,8 @@ class IssuePages:
 
 def classify_work_category(issue_count: int) -> str:
     """
-    現時点の暫定ルール。
-
-    掲載号が1つだけの作品は読み切り、
-    2つ以上ある作品は連載中として扱う。
+    累計掲載話数が1話だけなら読み切り、
+    2話以上なら連載中として扱う。
     """
     if issue_count <= 0:
         raise ValueError("issue_count は1以上である必要があります。")
@@ -332,11 +332,23 @@ def build_work_pdfs(
     )
 
     work_title = work_dir.name
+    history = update_work_history(
+        output_root=output_root,
+        work_title=work_title,
+        current_issues=[
+            path.name
+            for path in issue_dirs
+        ],
+    )
     category = classify_work_category(
-        len(issue_dirs)
+        history.cumulative_issue_count
     )
     is_oneshot = (
         category == ONESHOT_CATEGORY
+    )
+
+    print(
+        f"{work_title}: 累計 {history.cumulative_issue_count} 話 / {category}"
     )
 
     output_dir = (
